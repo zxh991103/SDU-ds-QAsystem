@@ -1,0 +1,323 @@
+2021-02-02 14:39:41.782 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-02-02 14:44:01.013 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:44:01.094 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:44:57.133 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:44:57.211 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:45:32.971 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:45:33.049 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:47:18.541 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:47:18.620 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:53:24.528 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:53:24.605 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:53:42.849 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:53:42.929 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 14:58:14.767 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 14:58:14.846 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:04:51.129 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:04:51.217 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:05:00.594 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:05:00.672 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:05:10.455 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:05:10.530 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:10:16.264 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:10:16.340 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:11:01.945 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:11:02.023 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:12:45.778 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:12:45.853 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:13:20.220 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:13:20.300 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:14:25.831 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:14:25.910 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:14:50.448 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:14:50.524 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:14:59.233 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:14:59.313 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:16:56.252 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:16:56.330 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:17:03.421 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:17:03.501 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:20:52.737 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是队列[0m
+2021-02-02 15:20:52.817 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "队"
+        ]
+    ]
+}[0m
+2021-02-02 15:21:10.293 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是优先队列[0m
+2021-02-02 15:21:10.372 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是优先队列",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "优先队"
+        ]
+    ]
+}[0m
+2021-02-02 15:22:07.763 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m为什么优队[0m
+2021-02-02 15:22:07.839 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "为什么优队",
+    "predicate": "reason",
+    "subject": []
+}[0m
+2021-02-02 15:22:12.345 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m为什么优[0m
+2021-02-02 15:22:12.427 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "为什么优",
+    "predicate": "reason",
+    "subject": []
+}[0m
+2021-02-02 15:22:18.900 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m为什么[0m
+2021-02-02 15:22:18.983 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "为什么",
+    "predicate": "reason",
+    "subject": []
+}[0m
+2021-02-02 15:28:50.120 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是沾沾站展战[0m
+2021-02-02 15:28:50.198 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是沾沾站展战",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "沾沾站展"
+        ]
+    ]
+}[0m
+2021-02-02 15:29:05.704 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是战[0m
+2021-02-02 15:29:05.783 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是战",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-02-02 15:29:13.123 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是战呢？[0m
+2021-02-02 15:29:13.200 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是战呢？",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-02-02 15:29:18.674 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是战展呢？[0m
+2021-02-02 15:29:18.758 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是战展呢？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "战"
+        ]
+    ]
+}[0m
+2021-02-02 15:29:55.071 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是沾沾？[0m
+2021-02-02 15:29:55.147 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是沾沾？",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-02-02 15:30:01.467 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是沾沾沾沾？[0m
+2021-02-02 15:30:01.552 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是沾沾沾沾？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "沾沾"
+        ]
+    ]
+}[0m
+2021-02-02 15:32:07.002 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是优先队呢？[0m
+2021-02-02 15:32:07.081 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是优先队呢？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "优先"
+        ]
+    ]
+}[0m
+2021-02-02 15:32:50.716 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是优先队呢？[0m
+2021-02-02 15:32:50.794 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是优先队呢？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "优先"
+        ]
+    ]
+}[0m

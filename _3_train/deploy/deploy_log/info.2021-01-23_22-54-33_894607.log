@@ -1,0 +1,503 @@
+2021-01-23 16:47:17.861 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 16:47:48.284 | INFO     | __main__:decode:211 - [31m[RECEIVE]: [0m[36m大圣娶迈克尔路亲呵呵呵呵呵呵和呵呵呵哈哈哈哈啊吕陆鹏是是是是是什么什么？[0m
+2021-01-23 21:47:11.542 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:47:40.936 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:48:28.735 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:49:12.691 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:49:43.145 | INFO     | __main__:decode:169 - [31m[RECEIVE]: [0m[36m大圣娶迈克尔路亲呵呵呵呵呵呵和呵呵呵哈哈哈哈啊吕陆鹏是是是是是什么什么？[0m
+2021-01-23 21:49:43.229 | INFO     | __main__:decode:171 - [32m[SEND]: [0m[36m{
+    "text": "大圣娶迈克尔路亲呵呵呵呵呵呵和",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 21:52:28.051 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:52:52.583 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m程序设计是什么？[0m
+2021-01-23 21:52:52.665 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "程序设计是什么？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "程"
+        ]
+    ]
+}[0m
+2021-01-23 21:53:11.584 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树设计是什么？[0m
+2021-01-23 21:53:11.664 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树设计是什么？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "二"
+        ]
+    ]
+}[0m
+2021-01-23 21:53:20.381 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m我说二叉树设计是什么？[0m
+2021-01-23 21:53:20.462 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "我说二叉树设计是什么？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "我"
+        ]
+    ]
+}[0m
+2021-01-23 21:54:32.683 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m搜索树是？[0m
+2021-01-23 21:54:32.762 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "搜"
+        ]
+    ]
+}[0m
+2021-01-23 21:55:33.086 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-23 21:55:41.712 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m搜索树是？[0m
+2021-01-23 21:55:41.798 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 21:55:57.698 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 21:55:57.788 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 21:57:29.091 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 21:57:29.171 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:01:00.567 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 22:01:00.650 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:01:26.092 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 22:01:26.174 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:01:39.525 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 22:01:39.705 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:04:09.446 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么什么搜索树是？[0m
+2021-01-23 22:04:09.522 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么什么搜索树是？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:51:22.628 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么程序？[0m
+2021-01-23 22:51:22.706 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么程序？",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-23 22:51:53.190 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m程序[0m
+2021-01-23 22:51:53.267 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "程序",
+    "predicate": "codes",
+    "subject": [
+        "B-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+    ]
+}[0m
+2021-01-24 10:16:39.368 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-24 10:17:06.856 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m11[0m
+2021-01-24 10:17:06.937 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "11",
+    "predicate": "concept",
+    "subject": [
+        "B-title",
+        "I-title",
+        "B-title",
+        "I-title",
+        "I-title",
+        "I-title",
+        "I-title",
+        "I-title",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "I-title"
+    ]
+}[0m
+2021-01-24 10:18:32.700 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-24 10:18:44.247 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m11[0m
+2021-01-24 10:18:44.337 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "11",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-01-24 10:18:55.434 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m程序是什么？[0m
+2021-01-24 10:18:55.514 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "程序是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "程序"
+        ]
+    ]
+}[0m
+2021-01-24 10:19:05.937 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树是什么[0m
+2021-01-24 10:19:06.025 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树是什么",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:19:12.391 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m我是说[0m
+2021-01-24 10:19:12.479 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "我是说",
+    "predicate": "reason",
+    "subject": [
+        [
+            "title",
+            "是"
+        ]
+    ]
+}[0m
+2021-01-24 10:19:15.853 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m你的[0m
+2021-01-24 10:19:15.944 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "你的",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "你"
+        ]
+    ]
+}[0m
+2021-01-24 10:19:26.093 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是程序设计[0m
+2021-01-24 10:19:26.183 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是程序设计",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "程序设"
+        ]
+    ]
+}[0m
+2021-01-24 10:22:16.096 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-24 10:22:34.997 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m是程序设计[0m
+2021-01-24 10:22:35.077 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "是程序设计",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "程序设"
+        ]
+    ]
+}[0m
+2021-01-24 10:23:16.603 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树是什么？[0m
+2021-01-24 10:23:16.681 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:31:14.716 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树是什么？[0m
+2021-01-24 10:31:14.792 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:32:24.191 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-24 10:32:36.629 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树是什么？[0m
+2021-01-24 10:32:36.707 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:32:48.263 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m程序设计是什么？[0m
+2021-01-24 10:32:48.347 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "程序设计是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "程序设计"
+        ]
+    ]
+}[0m
+2021-01-24 10:32:53.576 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是程序？[0m
+2021-01-24 10:32:53.659 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是程序？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "程"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:03.537 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是算法？[0m
+2021-01-24 10:33:03.618 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是算法？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "算"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:09.667 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m什么是kmp[0m
+2021-01-24 10:33:09.747 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "什么是kmp",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "k"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:23.319 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m怎么实现kmp[0m
+2021-01-24 10:33:23.401 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "怎么实现kmp",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "k"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:33.363 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m如何实现二叉树？[0m
+2021-01-24 10:33:33.448 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "如何实现二叉树？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:45.050 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m怎么实现kmp[0m
+2021-01-24 10:33:45.132 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "怎么实现kmp",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "k"
+        ]
+    ]
+}[0m
+2021-01-24 10:33:54.214 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m怎么实现kmp算法[0m
+2021-01-24 10:33:54.296 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "怎么实现kmp算法",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "kmp"
+        ]
+    ]
+}[0m
+2021-01-24 10:38:50.870 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-01-24 10:39:15.215 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树是什么？[0m
+2021-01-24 10:39:15.293 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "二叉树是什么？",
+    "predicate": "concept",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m
+2021-01-24 10:39:24.328 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m如何实现二叉树？[0m
+2021-01-24 10:39:24.408 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "如何实现二叉树？",
+    "predicate": "codes",
+    "subject": [
+        [
+            "title",
+            "二叉树"
+        ]
+    ]
+}[0m

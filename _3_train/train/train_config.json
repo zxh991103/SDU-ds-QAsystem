@@ -1,0 +1,33 @@
+{
+    "data": {
+        "train_data": "../../_2_traindataProcess/train_data.txt",
+        "dev_data": "../../_2_traindataProcess/dev_data.txt",
+        "tag_padding": "X",
+        "max_len": 15
+    },
+    "bert": {
+        "bert_config": "../bertcheckPoint/bert_config.json",
+        "bert_checkpoint": "../bertcheckPoint/bert_model.ckpt",
+        "bert_vocab": "../bertcheckPoint/vocab.txt",
+        "albert": "True"
+    },
+    "model": {
+        "lr": 1e-4,
+        "batch_size": 256,
+        "max_epochs": 16,
+        "early_stop_patience": 10,
+        "reduce_lr_patience": 3,
+        "reduce_lr_factor": 0.5,
+        "all_train_threshold": 0.99,
+        "clf_configs": {
+            "clf_type": "dense",
+            "dense_units": 128
+        },
+        "ner_configs": {
+            "ner_type": "idcnn",
+            "filters": 128,
+            "kernel_size": 3,
+            "blocks": 4
+        }
+    }
+}
