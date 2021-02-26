@@ -27,6 +27,7 @@ questionlabel = ['concept', 'reason', 'codes']
 
 data = []
 devdata = []
+testdata = []
 for i in nlist:
     for j in range(3):
         for k in questionformat[j]:
@@ -60,14 +61,21 @@ for i in nlist:
             t.append(s1)
             t.append(s2)
             t.append(s3)
-            if random.randint(1, 10) % 9 == 0:
+
+            rk = random.randint(1, 10)
+
+            if rk % 10 == 0:
                 devdata.append(t)
+            if rk%10 == 1:
+                testdata.append(t)
             else:
                 data.append(t)
 with codecs.open("train_data.txt", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 with codecs.open("dev_data.txt", "w", encoding="utf-8") as f:
     json.dump(devdata, f, ensure_ascii=False, indent=4)
+with codecs.open("test_data.txt", "w", encoding="utf-8") as f:
+    json.dump(testdata, f, ensure_ascii=False, indent=4)
 
 print(len(data))
 print(len(devdata))

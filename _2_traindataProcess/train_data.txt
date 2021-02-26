@@ -10,6 +10,11 @@
         "O O O B-title I-title O"
     ],
     [
+        "程序的概念是什么？",
+        "concept",
+        "B-title I-title O O O O O O O"
+    ],
+    [
         "程序的含义是什么？",
         "concept",
         "B-title I-title O O O O O O O"
@@ -25,16 +30,6 @@
         "O O O B-title I-title O"
     ],
     [
-        "如何学习程序?",
-        "concept",
-        "O O O O B-title I-title O"
-    ],
-    [
-        "程序是啥？",
-        "concept",
-        "B-title I-title O O O"
-    ],
-    [
         "啥是程序?",
         "concept",
         "O O B-title I-title O"
@@ -43,6 +38,11 @@
         "程序是？",
         "concept",
         "B-title I-title O O"
+    ],
+    [
+        "为什么引入程序?",
+        "reason",
+        "O O O O O B-title I-title O"
     ],
     [
         "程序有什么用？",
@@ -60,9 +60,14 @@
         "B-title I-title O O O O O"
     ],
     [
-        "为啥程序?",
+        "程序的成因是？",
         "reason",
-        "O O B-title I-title O"
+        "B-title I-title O O O O O"
+    ],
+    [
+        "为啥有程序?",
+        "reason",
+        "O O O B-title I-title O"
     ],
     [
         "为何有程序?",
@@ -75,9 +80,9 @@
         "B-title I-title O O O O O O O"
     ],
     [
-        "怎么做程序?",
-        "codes",
-        "O O O B-title I-title O"
+        "有程序的理由是什么？",
+        "reason",
+        "O B-title I-title O O O O O O O"
     ],
     [
         "如何实现程序？",
@@ -110,11 +115,6 @@
         "O O O O B-title I-title O O O O"
     ],
     [
-        "怎么完成程序任务？",
-        "codes",
-        "O O O O B-title I-title O O O"
-    ],
-    [
         "做程序需要写什么？",
         "codes",
         "O B-title I-title O O O O O O"
@@ -145,9 +145,9 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "怎么学数据结构?",
+        "数据结构什么意思？",
         "concept",
-        "O O O B-title I-title I-title I-title O"
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "如何学习数据结构?",
@@ -205,6 +205,16 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
+        "有数据结构的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "怎么做数据结构?",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "如何实现数据结构？",
         "codes",
         "O O O O B-title I-title I-title I-title O"
@@ -223,11 +233,6 @@
         "数据结构代码？",
         "codes",
         "B-title I-title I-title I-title O O O"
-    ],
-    [
-        "数据结构如何做？",
-        "codes",
-        "B-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下数据结构如何做？",
@@ -285,9 +290,19 @@
         "B-title I-title I-title O O O"
     ],
     [
+        "啥是线性表?",
+        "concept",
+        "O O B-title I-title I-title O"
+    ],
+    [
         "线性表是？",
         "concept",
         "B-title I-title I-title O O"
+    ],
+    [
+        "为什么引入线性表?",
+        "reason",
+        "O O O O O B-title I-title I-title O"
     ],
     [
         "线性表有什么用？",
@@ -370,11 +385,6 @@
         "O O O O B-title I-title I-title O O O"
     ],
     [
-        "做线性表需要写什么？",
-        "codes",
-        "O B-title I-title I-title O O O O O O"
-    ],
-    [
         "如何写线性表？",
         "codes",
         "O O O B-title I-title I-title O"
@@ -405,11 +415,6 @@
         "B-title I-title O O O O O"
     ],
     [
-        "怎么学数组?",
-        "concept",
-        "O O O B-title I-title O"
-    ],
-    [
         "如何学习数组?",
         "concept",
         "O O O O B-title I-title O"
@@ -433,11 +438,6 @@
         "为什么引入数组?",
         "reason",
         "O O O O O B-title I-title O"
-    ],
-    [
-        "数组有什么用？",
-        "reason",
-        "B-title I-title O O O O O"
     ],
     [
         "数组什么用？",
@@ -520,14 +520,14 @@
         "O O O O B-title I-title O O O"
     ],
     [
-        "做数组需要写什么？",
-        "codes",
-        "O B-title I-title O O O O O O"
-    ],
-    [
         "如何写数组？",
         "codes",
         "O O O B-title I-title O"
+    ],
+    [
+        "链表是什么？",
+        "concept",
+        "B-title I-title O O O O"
     ],
     [
         "什么是链表?",
@@ -535,7 +535,7 @@
         "O O O B-title I-title O"
     ],
     [
-        "链表的含义是什么？",
+        "链表的概念是什么？",
         "concept",
         "B-title I-title O O O O O O O"
     ],
@@ -543,11 +543,6 @@
         "链表什么意思？",
         "concept",
         "B-title I-title O O O O O"
-    ],
-    [
-        "怎么学链表?",
-        "concept",
-        "O O O B-title I-title O"
     ],
     [
         "如何学习链表?",
@@ -575,9 +570,14 @@
         "B-title I-title O O O O O"
     ],
     [
-        "链表什么用？",
+        "链表的原因是？",
         "reason",
-        "B-title I-title O O O O"
+        "B-title I-title O O O O O"
+    ],
+    [
+        "链表的成因是？",
+        "reason",
+        "B-title I-title O O O O O"
     ],
     [
         "为啥链表?",
@@ -613,11 +613,6 @@
         "如何实现链表？",
         "codes",
         "O O O O B-title I-title O"
-    ],
-    [
-        "链表怎么写？",
-        "codes",
-        "B-title I-title O O O O"
     ],
     [
         "怎么写链表代码？",
@@ -670,14 +665,14 @@
         "B-title I-title I-title O O O O O O O"
     ],
     [
-        "单链表的含义是什么？",
-        "concept",
-        "B-title I-title I-title O O O O O O O"
-    ],
-    [
         "单链表什么意思？",
         "concept",
         "B-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学单链表?",
+        "concept",
+        "O O O B-title I-title I-title O"
     ],
     [
         "如何学习单链表?",
@@ -688,11 +683,6 @@
         "单链表是啥？",
         "concept",
         "B-title I-title I-title O O O"
-    ],
-    [
-        "啥是单链表?",
-        "concept",
-        "O O B-title I-title I-title O"
     ],
     [
         "单链表是？",
@@ -710,6 +700,11 @@
         "B-title I-title I-title O O O O O"
     ],
     [
+        "单链表什么用？",
+        "reason",
+        "B-title I-title I-title O O O O"
+    ],
+    [
         "单链表的原因是？",
         "reason",
         "B-title I-title I-title O O O O O"
@@ -725,9 +720,9 @@
         "O O O B-title I-title I-title O"
     ],
     [
-        "单链表的情形是什么？",
+        "为何有单链表?",
         "reason",
-        "B-title I-title I-title O O O O O O O"
+        "O O O B-title I-title I-title O"
     ],
     [
         "有单链表的理由是什么？",
@@ -735,9 +730,9 @@
         "O B-title I-title I-title O O O O O O O"
     ],
     [
-        "怎么做单链表?",
+        "如何实现单链表？",
         "codes",
-        "O O O B-title I-title I-title O"
+        "O O O O B-title I-title I-title O"
     ],
     [
         "单链表怎么写？",
@@ -750,14 +745,14 @@
         "O O O B-title I-title I-title O O O"
     ],
     [
+        "单链表代码？",
+        "codes",
+        "B-title I-title I-title O O O"
+    ],
+    [
         "单链表如何做？",
         "codes",
         "B-title I-title I-title O O O O"
-    ],
-    [
-        "在语言下单链表如何做？",
-        "codes",
-        "O O O O B-title I-title I-title O O O O"
     ],
     [
         "怎么完成单链表任务？",
@@ -765,9 +760,19 @@
         "O O O O B-title I-title I-title O O O"
     ],
     [
+        "做单链表需要写什么？",
+        "codes",
+        "O B-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写单链表？",
         "codes",
         "O O O B-title I-title I-title O"
+    ],
+    [
+        "双向链表是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "什么是双向链表?",
@@ -855,11 +860,6 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "双向链表的情形是什么？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "有双向链表的理由是什么？",
         "reason",
         "O B-title I-title I-title I-title O O O O O O O"
@@ -940,11 +940,6 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "怎么学循环链表?",
-        "concept",
-        "O O O B-title I-title I-title I-title O"
-    ],
-    [
         "如何学习循环链表?",
         "concept",
         "O O O O B-title I-title I-title I-title O"
@@ -985,6 +980,11 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "循环链表的成因是？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
         "为啥循环链表?",
         "reason",
         "O O B-title I-title I-title I-title O"
@@ -1005,9 +1005,9 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "有循环链表的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title O O O O O O O"
+        "怎么做循环链表?",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何实现循环链表？",
@@ -1045,14 +1045,24 @@
         "O O O O B-title I-title I-title I-title O O O"
     ],
     [
+        "做循环链表需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写循环链表？",
         "codes",
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "双向循环链表是什么？",
+        "什么是双向循环链表?",
         "concept",
-        "B-title I-title I-title I-title I-title I-title O O O O"
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "双向循环链表的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "双向循环链表的含义是什么？",
@@ -1063,6 +1073,16 @@
         "双向循环链表什么意思？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学双向循环链表?",
+        "concept",
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "如何学习双向循环链表?",
+        "concept",
+        "O O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "双向循环链表是啥？",
@@ -1170,6 +1190,11 @@
         "O O O O B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
+        "如何写双向循环链表？",
+        "codes",
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
         "静态链表是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O"
@@ -1188,6 +1213,11 @@
         "静态链表的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "静态链表什么意思？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "怎么学静态链表?",
@@ -1218,11 +1248,6 @@
         "为什么引入静态链表?",
         "reason",
         "O O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "静态链表有什么用？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "静态链表什么用？",
@@ -1268,6 +1293,11 @@
         "怎么做静态链表?",
         "codes",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "如何实现静态链表？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O"
     ],
     [
         "静态链表怎么写？",
@@ -1340,6 +1370,11 @@
         "O O O B-title O"
     ],
     [
+        "如何学习栈?",
+        "concept",
+        "O O O O B-title O"
+    ],
+    [
         "栈是啥？",
         "concept",
         "B-title O O O"
@@ -1385,6 +1420,11 @@
         "O O B-title O"
     ],
     [
+        "为啥有栈?",
+        "reason",
+        "O O O B-title O"
+    ],
+    [
         "为何有栈?",
         "reason",
         "O O O B-title O"
@@ -1403,6 +1443,11 @@
         "怎么做栈?",
         "codes",
         "O O O B-title O"
+    ],
+    [
+        "如何实现栈？",
+        "codes",
+        "O O O O B-title O"
     ],
     [
         "栈怎么写？",
@@ -1460,11 +1505,6 @@
         "B-title I-title I-title O O O O O O O"
     ],
     [
-        "顺序栈的含义是什么？",
-        "concept",
-        "B-title I-title I-title O O O O O O O"
-    ],
-    [
         "顺序栈什么意思？",
         "concept",
         "B-title I-title I-title O O O O O"
@@ -1488,6 +1528,11 @@
         "啥是顺序栈?",
         "concept",
         "O O B-title I-title I-title O"
+    ],
+    [
+        "顺序栈是？",
+        "concept",
+        "B-title I-title I-title O O"
     ],
     [
         "为什么引入顺序栈?",
@@ -1540,6 +1585,11 @@
         "O B-title I-title I-title O O O O O O O"
     ],
     [
+        "怎么做顺序栈?",
+        "codes",
+        "O O O B-title I-title I-title O"
+    ],
+    [
         "如何实现顺序栈？",
         "codes",
         "O O O O B-title I-title I-title O"
@@ -1550,9 +1600,9 @@
         "B-title I-title I-title O O O O"
     ],
     [
-        "顺序栈代码？",
+        "怎么写顺序栈代码？",
         "codes",
-        "B-title I-title I-title O O O"
+        "O O O B-title I-title I-title O O O"
     ],
     [
         "顺序栈如何做？",
@@ -1563,6 +1613,16 @@
         "在语言下顺序栈如何做？",
         "codes",
         "O O O O B-title I-title I-title O O O O"
+    ],
+    [
+        "怎么完成顺序栈任务？",
+        "codes",
+        "O O O O B-title I-title I-title O O O"
+    ],
+    [
+        "做顺序栈需要写什么？",
+        "codes",
+        "O B-title I-title I-title O O O O O O"
     ],
     [
         "如何写顺序栈？",
@@ -1590,14 +1650,14 @@
         "B-title I-title I-title O O O O O O O"
     ],
     [
-        "链式栈什么意思？",
-        "concept",
-        "B-title I-title I-title O O O O O"
-    ],
-    [
         "怎么学链式栈?",
         "concept",
         "O O O B-title I-title I-title O"
+    ],
+    [
+        "如何学习链式栈?",
+        "concept",
+        "O O O O B-title I-title I-title O"
     ],
     [
         "链式栈是啥？",
@@ -1650,6 +1710,11 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "为何有链式栈?",
+        "reason",
+        "O O O B-title I-title I-title O"
+    ],
+    [
         "链式栈的情形是什么？",
         "reason",
         "B-title I-title I-title O O O O O O O"
@@ -1690,6 +1755,11 @@
         "B-title I-title I-title O O O O"
     ],
     [
+        "在语言下链式栈如何做？",
+        "codes",
+        "O O O O B-title I-title I-title O O O O"
+    ],
+    [
         "怎么完成链式栈任务？",
         "codes",
         "O O O O B-title I-title I-title O O O"
@@ -1705,6 +1775,11 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "队列是什么？",
+        "concept",
+        "B-title I-title O O O O"
+    ],
+    [
         "什么是队列?",
         "concept",
         "O O O B-title I-title O"
@@ -1718,11 +1793,6 @@
         "队列的含义是什么？",
         "concept",
         "B-title I-title O O O O O O O"
-    ],
-    [
-        "队列什么意思？",
-        "concept",
-        "B-title I-title O O O O O"
     ],
     [
         "怎么学队列?",
@@ -1755,11 +1825,6 @@
         "O O O O O B-title I-title O"
     ],
     [
-        "队列有什么用？",
-        "reason",
-        "B-title I-title O O O O O"
-    ],
-    [
         "队列什么用？",
         "reason",
         "B-title I-title O O O O"
@@ -1770,22 +1835,12 @@
         "B-title I-title O O O O O"
     ],
     [
-        "队列的成因是？",
-        "reason",
-        "B-title I-title O O O O O"
-    ],
-    [
         "为啥队列?",
         "reason",
         "O O B-title I-title O"
     ],
     [
         "为啥有队列?",
-        "reason",
-        "O O O B-title I-title O"
-    ],
-    [
-        "为何有队列?",
         "reason",
         "O O O B-title I-title O"
     ],
@@ -1855,6 +1910,11 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
+        "什么是普通队列?",
+        "concept",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "普通队列的概念是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
@@ -1868,6 +1928,11 @@
         "普通队列什么意思？",
         "concept",
         "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学普通队列?",
+        "concept",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何学习普通队列?",
@@ -1905,14 +1970,19 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
+        "普通队列的原因是？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
         "普通队列的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "为啥普通队列?",
+        "为啥有普通队列?",
         "reason",
-        "O O B-title I-title I-title I-title O"
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "为何有普通队列?",
@@ -1923,11 +1993,6 @@
         "普通队列的情形是什么？",
         "reason",
         "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "有普通队列的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做普通队列?",
@@ -1960,11 +2025,6 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "在语言下普通队列如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
-    ],
-    [
         "怎么完成普通队列任务？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O"
@@ -1975,13 +2035,8 @@
         "O B-title I-title I-title I-title O O O O O O"
     ],
     [
-        "双端队列是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是双端队列?",
-        "concept",
+        "如何写普通队列？",
+        "codes",
         "O O O B-title I-title I-title I-title O"
     ],
     [
@@ -2035,6 +2090,16 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "双端队列什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
+        "双端队列的原因是？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
         "双端队列的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
@@ -2053,6 +2118,11 @@
         "为何有双端队列?",
         "reason",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "双端队列的情形是什么？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有双端队列的理由是什么？",
@@ -2095,6 +2165,11 @@
         "O O O O B-title I-title I-title I-title O O O O"
     ],
     [
+        "怎么完成双端队列任务？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O O O"
+    ],
+    [
         "做双端队列需要写什么？",
         "codes",
         "O B-title I-title I-title I-title O O O O O O"
@@ -2135,9 +2210,9 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "啥是阻塞队列?",
+        "阻塞队列是啥？",
         "concept",
-        "O O B-title I-title I-title I-title O"
+        "B-title I-title I-title I-title O O O"
     ],
     [
         "阻塞队列是？",
@@ -2155,6 +2230,11 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "阻塞队列什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "阻塞队列的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
@@ -2166,6 +2246,11 @@
     ],
     [
         "为啥有阻塞队列?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "为何有阻塞队列?",
         "reason",
         "O O O B-title I-title I-title I-title O"
     ],
@@ -2205,19 +2290,14 @@
         "B-title I-title I-title I-title O O O"
     ],
     [
+        "阻塞队列如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "在语言下阻塞队列如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成阻塞队列任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O"
-    ],
-    [
-        "做阻塞队列需要写什么？",
-        "codes",
-        "O B-title I-title I-title I-title O O O O O O"
     ],
     [
         "如何写阻塞队列？",
@@ -2235,6 +2315,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "并发队列的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "并发队列的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
@@ -2243,6 +2328,11 @@
         "并发队列什么意思？",
         "concept",
         "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学并发队列?",
+        "concept",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何学习并发队列?",
@@ -2265,9 +2355,19 @@
         "B-title I-title I-title I-title O O"
     ],
     [
+        "为什么引入并发队列?",
+        "reason",
+        "O O O O O B-title I-title I-title I-title O"
+    ],
+    [
         "并发队列有什么用？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "并发队列什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "并发队列的原因是？",
@@ -2350,14 +2450,14 @@
         "O B-title I-title I-title I-title O O O O O O"
     ],
     [
+        "如何写并发队列？",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "阻塞并发队列是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是阻塞并发队列?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "阻塞并发队列的概念是什么？",
@@ -2370,14 +2470,14 @@
         "B-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "阻塞并发队列什么意思？",
-        "concept",
-        "B-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
         "怎么学阻塞并发队列?",
         "concept",
         "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "如何学习阻塞并发队列?",
+        "concept",
+        "O O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "阻塞并发队列是啥？",
@@ -2393,11 +2493,6 @@
         "阻塞并发队列是？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O"
-    ],
-    [
-        "为什么引入阻塞并发队列?",
-        "reason",
-        "O O O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "阻塞并发队列有什么用？",
@@ -2418,11 +2513,6 @@
         "阻塞并发队列的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "为啥阻塞并发队列?",
-        "reason",
-        "O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "为啥有阻塞并发队列?",
@@ -2490,11 +2580,6 @@
         "O B-title I-title I-title I-title I-title I-title O O O O O O"
     ],
     [
-        "如何写阻塞并发队列？",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title I-title O"
-    ],
-    [
         "散列表是什么？",
         "concept",
         "B-title I-title I-title O O O O"
@@ -2503,11 +2588,6 @@
         "什么是散列表?",
         "concept",
         "O O O B-title I-title I-title O"
-    ],
-    [
-        "散列表的概念是什么？",
-        "concept",
-        "B-title I-title I-title O O O O O O O"
     ],
     [
         "散列表的含义是什么？",
@@ -2523,6 +2603,11 @@
         "怎么学散列表?",
         "concept",
         "O O O B-title I-title I-title O"
+    ],
+    [
+        "如何学习散列表?",
+        "concept",
+        "O O O O B-title I-title I-title O"
     ],
     [
         "散列表是啥？",
@@ -2543,6 +2628,11 @@
         "为什么引入散列表?",
         "reason",
         "O O O O O B-title I-title I-title O"
+    ],
+    [
+        "散列表有什么用？",
+        "reason",
+        "B-title I-title I-title O O O O O"
     ],
     [
         "散列表什么用？",
@@ -2580,11 +2670,6 @@
         "B-title I-title I-title O O O O O O O"
     ],
     [
-        "有散列表的理由是什么？",
-        "reason",
-        "O B-title I-title I-title O O O O O O O"
-    ],
-    [
         "怎么做散列表?",
         "codes",
         "O O O B-title I-title I-title O"
@@ -2598,6 +2683,11 @@
         "散列表怎么写？",
         "codes",
         "B-title I-title I-title O O O O"
+    ],
+    [
+        "怎么写散列表代码？",
+        "codes",
+        "O O O B-title I-title I-title O O O"
     ],
     [
         "散列表代码？",
@@ -2620,19 +2710,9 @@
         "O O O O B-title I-title I-title O O O"
     ],
     [
-        "做散列表需要写什么？",
-        "codes",
-        "O B-title I-title I-title O O O O O O"
-    ],
-    [
         "如何写散列表？",
         "codes",
         "O O O B-title I-title I-title O"
-    ],
-    [
-        "散列函数是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O"
     ],
     [
         "什么是散列函数?",
@@ -2720,14 +2800,14 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "散列函数的情形是什么？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "有散列函数的理由是什么？",
         "reason",
         "O B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "怎么做散列函数?",
-        "codes",
-        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何实现散列函数？",
@@ -2755,9 +2835,9 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "在语言下散列函数如何做？",
+        "怎么完成散列函数任务？",
         "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
+        "O O O O B-title I-title I-title I-title O O O"
     ],
     [
         "做散列函数需要写什么？",
@@ -2840,11 +2920,6 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "冲突解决的成因是？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
-    ],
-    [
         "为啥冲突解决?",
         "reason",
         "O O B-title I-title I-title I-title O"
@@ -2885,14 +2960,14 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么写冲突解决代码？",
-        "codes",
-        "O O O B-title I-title I-title I-title O O O"
-    ],
-    [
         "冲突解决代码？",
         "codes",
         "B-title I-title I-title I-title O O O"
+    ],
+    [
+        "冲突解决如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下冲突解决如何做？",
@@ -2955,9 +3030,14 @@
         "O O B-title I-title I-title O"
     ],
     [
-        "链表法是？",
-        "concept",
-        "B-title I-title I-title O O"
+        "为什么引入链表法?",
+        "reason",
+        "O O O O O B-title I-title I-title O"
+    ],
+    [
+        "链表法有什么用？",
+        "reason",
+        "B-title I-title I-title O O O O O"
     ],
     [
         "链表法什么用？",
@@ -3005,11 +3085,6 @@
         "O O O B-title I-title I-title O"
     ],
     [
-        "如何实现链表法？",
-        "codes",
-        "O O O O B-title I-title I-title O"
-    ],
-    [
         "链表法怎么写？",
         "codes",
         "B-title I-title I-title O O O O"
@@ -3050,7 +3125,17 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "开放寻址是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "开放寻址的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "开放寻址的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
     ],
@@ -3090,19 +3175,9 @@
         "O O O O O B-title I-title I-title I-title O"
     ],
     [
-        "开放寻址有什么用？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
-    ],
-    [
         "开放寻址什么用？",
         "reason",
         "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "开放寻址的原因是？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "开放寻址的成因是？",
@@ -3190,9 +3265,9 @@
         "B-title I-title O O O O"
     ],
     [
-        "其他的概念是什么？",
+        "什么是其他?",
         "concept",
-        "B-title I-title O O O O O O O"
+        "O O O B-title I-title O"
     ],
     [
         "其他的含义是什么？",
@@ -3213,6 +3288,11 @@
         "如何学习其他?",
         "concept",
         "O O O O B-title I-title O"
+    ],
+    [
+        "其他是啥？",
+        "concept",
+        "B-title I-title O O O"
     ],
     [
         "啥是其他?",
@@ -3270,14 +3350,19 @@
         "B-title I-title O O O O O O O"
     ],
     [
+        "有其他的理由是什么？",
+        "reason",
+        "O B-title I-title O O O O O O O"
+    ],
+    [
         "怎么做其他?",
         "codes",
         "O O O B-title I-title O"
     ],
     [
-        "如何实现其他？",
+        "其他怎么写？",
         "codes",
-        "O O O O B-title I-title O"
+        "B-title I-title O O O O"
     ],
     [
         "怎么写其他代码？",
@@ -3288,6 +3373,11 @@
         "其他代码？",
         "codes",
         "B-title I-title O O O"
+    ],
+    [
+        "其他如何做？",
+        "codes",
+        "B-title I-title O O O O"
     ],
     [
         "在语言下其他如何做？",
@@ -3335,11 +3425,6 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "怎么学动态扩容?",
-        "concept",
-        "O O O B-title I-title I-title I-title O"
-    ],
-    [
         "如何学习动态扩容?",
         "concept",
         "O O O O B-title I-title I-title I-title O"
@@ -3368,6 +3453,11 @@
         "动态扩容有什么用？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "动态扩容什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "动态扩容的原因是？",
@@ -3405,14 +3495,14 @@
         "O B-title I-title I-title I-title O O O O O O O"
     ],
     [
+        "怎么做动态扩容?",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "如何实现动态扩容？",
         "codes",
         "O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "动态扩容怎么写？",
-        "codes",
-        "B-title I-title I-title I-title O O O O"
     ],
     [
         "怎么写动态扩容代码？",
@@ -3423,6 +3513,11 @@
         "动态扩容代码？",
         "codes",
         "B-title I-title I-title I-title O O O"
+    ],
+    [
+        "动态扩容如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下动态扩容如何做？",
@@ -3465,11 +3560,6 @@
         "B-title I-title O O O O O O O"
     ],
     [
-        "位图什么意思？",
-        "concept",
-        "B-title I-title O O O O O"
-    ],
-    [
         "怎么学位图?",
         "concept",
         "O O O B-title I-title O"
@@ -3510,6 +3600,11 @@
         "B-title I-title O O O O"
     ],
     [
+        "位图的原因是？",
+        "reason",
+        "B-title I-title O O O O O"
+    ],
+    [
         "位图的成因是？",
         "reason",
         "B-title I-title O O O O O"
@@ -3521,6 +3616,11 @@
     ],
     [
         "为啥有位图?",
+        "reason",
+        "O O O B-title I-title O"
+    ],
+    [
+        "为何有位图?",
         "reason",
         "O O O B-title I-title O"
     ],
@@ -3540,6 +3640,11 @@
         "O O O B-title I-title O"
     ],
     [
+        "如何实现位图？",
+        "codes",
+        "O O O O B-title I-title O"
+    ],
+    [
         "位图怎么写？",
         "codes",
         "B-title I-title O O O O"
@@ -3550,9 +3655,14 @@
         "O O O B-title I-title O O O"
     ],
     [
-        "在语言下位图如何做？",
+        "位图代码？",
         "codes",
-        "O O O O B-title I-title O O O O"
+        "B-title I-title O O O"
+    ],
+    [
+        "位图如何做？",
+        "codes",
+        "B-title I-title O O O O"
     ],
     [
         "怎么完成位图任务？",
@@ -3605,11 +3715,6 @@
         "O O O O B-title O"
     ],
     [
-        "树是啥？",
-        "concept",
-        "B-title O O O"
-    ],
-    [
         "啥是树?",
         "concept",
         "O O B-title O"
@@ -3655,11 +3760,6 @@
         "O O O B-title O"
     ],
     [
-        "为何有树?",
-        "reason",
-        "O O O B-title O"
-    ],
-    [
         "树的情形是什么？",
         "reason",
         "B-title O O O O O O O"
@@ -3695,11 +3795,6 @@
         "B-title O O O"
     ],
     [
-        "树如何做？",
-        "codes",
-        "B-title O O O O"
-    ],
-    [
         "在语言下树如何做？",
         "codes",
         "O O O O B-title O O O O"
@@ -3708,6 +3803,11 @@
         "怎么完成树任务？",
         "codes",
         "O O O O B-title O O O"
+    ],
+    [
+        "做树需要写什么？",
+        "codes",
+        "O B-title O O O O O O"
     ],
     [
         "如何写树？",
@@ -3750,24 +3850,19 @@
         "O O O O B-title I-title I-title O"
     ],
     [
-        "二叉树是啥？",
-        "concept",
-        "B-title I-title I-title O O O"
-    ],
-    [
         "啥是二叉树?",
         "concept",
         "O O B-title I-title I-title O"
     ],
     [
-        "二叉树是？",
-        "concept",
-        "B-title I-title I-title O O"
-    ],
-    [
         "为什么引入二叉树?",
         "reason",
         "O O O O O B-title I-title I-title O"
+    ],
+    [
+        "二叉树有什么用？",
+        "reason",
+        "B-title I-title I-title O O O O O"
     ],
     [
         "二叉树什么用？",
@@ -3885,6 +3980,11 @@
         "B-title I-title I-title I-title I-title O O O O O"
     ],
     [
+        "怎么学平衡二叉树?",
+        "concept",
+        "O O O B-title I-title I-title I-title I-title O"
+    ],
+    [
         "如何学习平衡二叉树?",
         "concept",
         "O O O O B-title I-title I-title I-title I-title O"
@@ -3950,14 +4050,14 @@
         "B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "有平衡二叉树的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "怎么做平衡二叉树?",
         "codes",
         "O O O B-title I-title I-title I-title I-title O"
+    ],
+    [
+        "如何实现平衡二叉树？",
+        "codes",
+        "O O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "平衡二叉树怎么写？",
@@ -3990,6 +4090,11 @@
         "O O O O B-title I-title I-title I-title I-title O O O"
     ],
     [
+        "做平衡二叉树需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写平衡二叉树？",
         "codes",
         "O O O B-title I-title I-title I-title I-title O"
@@ -3998,11 +4103,6 @@
         "二叉查找树是什么？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是二叉查找树?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "二叉查找树的概念是什么？",
@@ -4035,11 +4135,6 @@
         "O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "二叉查找树是？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O"
-    ],
-    [
         "为什么引入二叉查找树?",
         "reason",
         "O O O O O B-title I-title I-title I-title I-title O"
@@ -4050,6 +4145,11 @@
         "B-title I-title I-title I-title I-title O O O O O"
     ],
     [
+        "二叉查找树什么用？",
+        "reason",
+        "B-title I-title I-title I-title I-title O O O O"
+    ],
+    [
         "二叉查找树的原因是？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
@@ -4058,6 +4158,11 @@
         "二叉查找树的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "为啥二叉查找树?",
+        "reason",
+        "O O B-title I-title I-title I-title I-title O"
     ],
     [
         "为啥有二叉查找树?",
@@ -4080,24 +4185,19 @@
         "O B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "怎么做二叉查找树?",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
         "如何实现二叉查找树？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title O"
     ],
     [
+        "二叉查找树怎么写？",
+        "codes",
+        "B-title I-title I-title I-title I-title O O O O"
+    ],
+    [
         "怎么写二叉查找树代码？",
         "codes",
         "O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
-        "二叉查找树代码？",
-        "codes",
-        "B-title I-title I-title I-title I-title O O O"
     ],
     [
         "二叉查找树如何做？",
@@ -4108,16 +4208,6 @@
         "在语言下二叉查找树如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成二叉查找树任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
-        "做二叉查找树需要写什么？",
-        "codes",
-        "O B-title I-title I-title I-title I-title O O O O O O"
     ],
     [
         "如何写二叉查找树？",
@@ -4175,11 +4265,6 @@
         "B-title I-title I-title I-title I-title I-title I-title O O"
     ],
     [
-        "为什么引入平衡二叉查找树?",
-        "reason",
-        "O O O O O B-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
         "平衡二叉查找树有什么用？",
         "reason",
         "B-title I-title I-title I-title I-title I-title I-title O O O O O"
@@ -4225,9 +4310,14 @@
         "O B-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "平衡二叉查找树怎么写？",
+        "怎么做平衡二叉查找树?",
         "codes",
-        "B-title I-title I-title I-title I-title I-title I-title O O O O"
+        "O O O B-title I-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "如何实现平衡二叉查找树？",
+        "codes",
+        "O O O O B-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
         "怎么写平衡二叉查找树代码？",
@@ -4285,11 +4375,6 @@
         "B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "完全二叉树什么意思？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
         "怎么学完全二叉树?",
         "concept",
         "O O O B-title I-title I-title I-title I-title O"
@@ -4298,6 +4383,11 @@
         "如何学习完全二叉树?",
         "concept",
         "O O O O B-title I-title I-title I-title I-title O"
+    ],
+    [
+        "完全二叉树是啥？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O"
     ],
     [
         "啥是完全二叉树?",
@@ -4326,6 +4416,11 @@
     ],
     [
         "完全二叉树的原因是？",
+        "reason",
+        "B-title I-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "完全二叉树的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
     ],
@@ -4390,11 +4485,6 @@
         "O O O O B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成完全二叉树任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "做完全二叉树需要写什么？",
         "codes",
         "O B-title I-title I-title I-title I-title O O O O O O"
@@ -4413,11 +4503,6 @@
         "什么是满二叉树?",
         "concept",
         "O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "满二叉树的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "满二叉树的含义是什么？",
@@ -4450,6 +4535,11 @@
         "O O B-title I-title I-title I-title O"
     ],
     [
+        "满二叉树是？",
+        "concept",
+        "B-title I-title I-title I-title O O"
+    ],
+    [
         "为什么引入满二叉树?",
         "reason",
         "O O O O O B-title I-title I-title I-title O"
@@ -4460,12 +4550,12 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "满二叉树什么用？",
+        "满二叉树的原因是？",
         "reason",
-        "B-title I-title I-title I-title O O O O"
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "满二叉树的原因是？",
+        "满二叉树的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
@@ -4525,14 +4615,19 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "在语言下满二叉树如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
-    ],
-    [
         "怎么完成满二叉树任务？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O"
+    ],
+    [
+        "做满二叉树需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title O O O O O O"
+    ],
+    [
+        "如何写满二叉树？",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "多路查找树是什么？",
@@ -4550,11 +4645,6 @@
         "B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "多路查找树的含义是什么？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "多路查找树什么意思？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O O"
@@ -4563,6 +4653,11 @@
         "怎么学多路查找树?",
         "concept",
         "O O O B-title I-title I-title I-title I-title O"
+    ],
+    [
+        "如何学习多路查找树?",
+        "concept",
+        "O O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "多路查找树是啥？",
@@ -4605,6 +4700,11 @@
         "B-title I-title I-title I-title I-title O O O O O"
     ],
     [
+        "为啥多路查找树?",
+        "reason",
+        "O O B-title I-title I-title I-title I-title O"
+    ],
+    [
         "为啥有多路查找树?",
         "reason",
         "O O O B-title I-title I-title I-title I-title O"
@@ -4613,11 +4713,6 @@
         "为何有多路查找树?",
         "reason",
         "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
-        "多路查找树的情形是什么？",
-        "reason",
-        "B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有多路查找树的理由是什么？",
@@ -4675,11 +4770,6 @@
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "B树是什么？",
-        "concept",
-        "B-title I-title O O O O"
-    ],
-    [
         "什么是B树?",
         "concept",
         "O O O B-title I-title O"
@@ -4695,9 +4785,9 @@
         "B-title I-title O O O O O O O"
     ],
     [
-        "B树什么意思？",
+        "怎么学B树?",
         "concept",
-        "B-title I-title O O O O O"
+        "O O O B-title I-title O"
     ],
     [
         "如何学习B树?",
@@ -4755,6 +4845,11 @@
         "O O O B-title I-title O"
     ],
     [
+        "为何有B树?",
+        "reason",
+        "O O O B-title I-title O"
+    ],
+    [
         "B树的情形是什么？",
         "reason",
         "B-title I-title O O O O O O O"
@@ -4783,6 +4878,11 @@
         "怎么写B树代码？",
         "codes",
         "O O O B-title I-title O O O"
+    ],
+    [
+        "B树代码？",
+        "codes",
+        "B-title I-title O O O"
     ],
     [
         "B树如何做？",
@@ -4865,11 +4965,6 @@
         "O O O O O B-title I-title I-title O"
     ],
     [
-        "B+树有什么用？",
-        "reason",
-        "B-title I-title I-title O O O O O"
-    ],
-    [
         "B+树什么用？",
         "reason",
         "B-title I-title I-title O O O O"
@@ -4891,11 +4986,6 @@
     ],
     [
         "为啥有B+树?",
-        "reason",
-        "O O O B-title I-title I-title O"
-    ],
-    [
-        "为何有B+树?",
         "reason",
         "O O O B-title I-title I-title O"
     ],
@@ -4985,6 +5075,11 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "怎么学2-3树?",
+        "concept",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "如何学习2-3树?",
         "concept",
         "O O O O B-title I-title I-title I-title O"
@@ -4998,11 +5093,6 @@
         "啥是2-3树?",
         "concept",
         "O O B-title I-title I-title I-title O"
-    ],
-    [
-        "2-3树是？",
-        "concept",
-        "B-title I-title I-title I-title O O"
     ],
     [
         "为什么引入2-3树?",
@@ -5075,9 +5165,19 @@
         "O O O B-title I-title I-title I-title O O O"
     ],
     [
+        "2-3树代码？",
+        "codes",
+        "B-title I-title I-title I-title O O O"
+    ],
+    [
         "2-3树如何做？",
         "codes",
         "B-title I-title I-title I-title O O O O"
+    ],
+    [
+        "在语言下2-3树如何做？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O O O O"
     ],
     [
         "怎么完成2-3树任务？",
@@ -5105,6 +5205,11 @@
         "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
+        "2-3-4树的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "2-3-4树的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O O O"
@@ -5123,11 +5228,6 @@
         "如何学习2-3-4树?",
         "concept",
         "O O O O B-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "2-3-4树是啥？",
-        "concept",
-        "B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
         "啥是2-3-4树?",
@@ -5175,19 +5275,9 @@
         "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "为何有2-3-4树?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title I-title O"
-    ],
-    [
         "2-3-4树的情形是什么？",
         "reason",
         "B-title I-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "有2-3-4树的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做2-3-4树?",
@@ -5205,11 +5295,6 @@
         "B-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么写2-3-4树代码？",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "2-3-4树代码？",
         "codes",
         "B-title I-title I-title I-title I-title I-title O O O"
@@ -5225,14 +5310,19 @@
         "O O O O B-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成2-3-4树任务？",
+        "做2-3-4树需要写什么？",
         "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title O O O"
+        "O B-title I-title I-title I-title I-title I-title O O O O O O"
     ],
     [
-        "什么是堆?",
+        "如何写2-3-4树？",
+        "codes",
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "堆是什么？",
         "concept",
-        "O O O B-title O"
+        "B-title O O O O"
     ],
     [
         "堆的概念是什么？",
@@ -5260,11 +5350,6 @@
         "B-title O O O"
     ],
     [
-        "啥是堆?",
-        "concept",
-        "O O B-title O"
-    ],
-    [
         "堆是？",
         "concept",
         "B-title O O"
@@ -5283,6 +5368,11 @@
         "堆什么用？",
         "reason",
         "B-title O O O O"
+    ],
+    [
+        "堆的原因是？",
+        "reason",
+        "B-title O O O O O"
     ],
     [
         "堆的成因是？",
@@ -5315,14 +5405,19 @@
         "O B-title O O O O O O O"
     ],
     [
-        "怎么做堆?",
-        "codes",
-        "O O O B-title O"
-    ],
-    [
         "如何实现堆？",
         "codes",
         "O O O O B-title O"
+    ],
+    [
+        "堆怎么写？",
+        "codes",
+        "B-title O O O O"
+    ],
+    [
+        "怎么写堆代码？",
+        "codes",
+        "O O O B-title O O O"
     ],
     [
         "堆代码？",
@@ -5395,9 +5490,9 @@
         "B-title I-title I-title O O O"
     ],
     [
-        "啥是大根堆?",
+        "大根堆是？",
         "concept",
-        "O O B-title I-title I-title O"
+        "B-title I-title I-title O O"
     ],
     [
         "为什么引入大根堆?",
@@ -5410,12 +5505,12 @@
         "B-title I-title I-title O O O O O"
     ],
     [
-        "大根堆什么用？",
+        "大根堆的原因是？",
         "reason",
-        "B-title I-title I-title O O O O"
+        "B-title I-title I-title O O O O O"
     ],
     [
-        "大根堆的原因是？",
+        "大根堆的成因是？",
         "reason",
         "B-title I-title I-title O O O O O"
     ],
@@ -5426,6 +5521,11 @@
     ],
     [
         "为啥有大根堆?",
+        "reason",
+        "O O O B-title I-title I-title O"
+    ],
+    [
+        "为何有大根堆?",
         "reason",
         "O O O B-title I-title I-title O"
     ],
@@ -5455,14 +5555,24 @@
         "B-title I-title I-title O O O O"
     ],
     [
+        "怎么写大根堆代码？",
+        "codes",
+        "O O O B-title I-title I-title O O O"
+    ],
+    [
+        "大根堆代码？",
+        "codes",
+        "B-title I-title I-title O O O"
+    ],
+    [
+        "大根堆如何做？",
+        "codes",
+        "B-title I-title I-title O O O O"
+    ],
+    [
         "在语言下大根堆如何做？",
         "codes",
         "O O O O B-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成大根堆任务？",
-        "codes",
-        "O O O O B-title I-title I-title O O O"
     ],
     [
         "做大根堆需要写什么？",
@@ -5478,11 +5588,6 @@
         "小根堆是什么？",
         "concept",
         "B-title I-title I-title O O O O"
-    ],
-    [
-        "什么是小根堆?",
-        "concept",
-        "O O O B-title I-title I-title O"
     ],
     [
         "小根堆的概念是什么？",
@@ -5510,6 +5615,11 @@
         "O O O O B-title I-title I-title O"
     ],
     [
+        "啥是小根堆?",
+        "concept",
+        "O O B-title I-title I-title O"
+    ],
+    [
         "小根堆是？",
         "concept",
         "B-title I-title I-title O O"
@@ -5525,9 +5635,9 @@
         "B-title I-title I-title O O O O O"
     ],
     [
-        "小根堆什么用？",
+        "小根堆的原因是？",
         "reason",
-        "B-title I-title I-title O O O O"
+        "B-title I-title I-title O O O O O"
     ],
     [
         "小根堆的成因是？",
@@ -5610,17 +5720,17 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "优先级队列是什么？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O O"
+    ],
+    [
         "什么是优先级队列?",
         "concept",
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "优先级队列的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "优先级队列的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O O O O"
     ],
@@ -5678,11 +5788,6 @@
         "优先级队列的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "为啥优先级队列?",
-        "reason",
-        "O O B-title I-title I-title I-title I-title O"
     ],
     [
         "为啥有优先级队列?",
@@ -5745,24 +5850,14 @@
         "O O O O B-title I-title I-title I-title I-title O O O"
     ],
     [
-        "做优先级队列需要写什么？",
-        "codes",
-        "O B-title I-title I-title I-title I-title O O O O O O"
-    ],
-    [
-        "如何写优先级队列？",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
         "斐波那契堆是什么？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "什么是斐波那契堆?",
+        "斐波那契堆的概念是什么？",
         "concept",
-        "O O O B-title I-title I-title I-title I-title O"
+        "B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "斐波那契堆的含义是什么？",
@@ -5850,11 +5945,6 @@
         "O B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "怎么做斐波那契堆?",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
         "如何实现斐波那契堆？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title O"
@@ -5863,6 +5953,11 @@
         "斐波那契堆怎么写？",
         "codes",
         "B-title I-title I-title I-title I-title O O O O"
+    ],
+    [
+        "斐波那契堆代码？",
+        "codes",
+        "B-title I-title I-title I-title I-title O O O"
     ],
     [
         "斐波那契堆如何做？",
@@ -5883,6 +5978,11 @@
         "做斐波那契堆需要写什么？",
         "codes",
         "O B-title I-title I-title I-title I-title O O O O O O"
+    ],
+    [
+        "如何写斐波那契堆？",
+        "codes",
+        "O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "二项堆是什么？",
@@ -5945,9 +6045,9 @@
         "B-title I-title I-title O O O O O"
     ],
     [
-        "二项堆什么用？",
+        "二项堆的原因是？",
         "reason",
-        "B-title I-title I-title O O O O"
+        "B-title I-title I-title O O O O O"
     ],
     [
         "二项堆的成因是？",
@@ -5975,19 +6075,14 @@
         "O B-title I-title I-title O O O O O O O"
     ],
     [
-        "如何实现二项堆？",
-        "codes",
-        "O O O O B-title I-title I-title O"
-    ],
-    [
         "二项堆怎么写？",
         "codes",
         "B-title I-title I-title O O O O"
     ],
     [
-        "二项堆代码？",
+        "怎么写二项堆代码？",
         "codes",
-        "B-title I-title I-title O O O"
+        "O O O B-title I-title I-title O O O"
     ],
     [
         "二项堆如何做？",
@@ -6005,9 +6100,9 @@
         "O O O O B-title I-title I-title O O O"
     ],
     [
-        "如何写二项堆？",
+        "做二项堆需要写什么？",
         "codes",
-        "O O O B-title I-title I-title O"
+        "O B-title I-title I-title O O O O O O"
     ],
     [
         "图是什么？",
@@ -6035,11 +6130,6 @@
         "B-title O O O O O"
     ],
     [
-        "怎么学图?",
-        "concept",
-        "O O O B-title O"
-    ],
-    [
         "如何学习图?",
         "concept",
         "O O O O B-title O"
@@ -6048,11 +6138,6 @@
         "图是啥？",
         "concept",
         "B-title O O O"
-    ],
-    [
-        "啥是图?",
-        "concept",
-        "O O B-title O"
     ],
     [
         "图是？",
@@ -6075,19 +6160,9 @@
         "B-title O O O O"
     ],
     [
-        "图的原因是？",
-        "reason",
-        "B-title O O O O O"
-    ],
-    [
         "图的成因是？",
         "reason",
         "B-title O O O O O"
-    ],
-    [
-        "为啥图?",
-        "reason",
-        "O O B-title O"
     ],
     [
         "为啥有图?",
@@ -6120,11 +6195,6 @@
         "O O O O B-title O"
     ],
     [
-        "图怎么写？",
-        "codes",
-        "B-title O O O O"
-    ],
-    [
         "怎么写图代码？",
         "codes",
         "O O O B-title O O O"
@@ -6143,11 +6213,6 @@
         "在语言下图如何做？",
         "codes",
         "O O O O B-title O O O O"
-    ],
-    [
-        "怎么完成图任务？",
-        "codes",
-        "O O O O B-title O O O"
     ],
     [
         "做图需要写什么？",
@@ -6170,11 +6235,6 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "图的存储的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "图的存储的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
@@ -6183,6 +6243,11 @@
         "图的存储什么意思？",
         "concept",
         "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学图的存储?",
+        "concept",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何学习图的存储?",
@@ -6300,11 +6365,6 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "邻接矩阵是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
         "什么是邻接矩阵?",
         "concept",
         "O O O B-title I-title I-title I-title O"
@@ -6330,14 +6390,19 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "邻接矩阵是啥？",
+        "如何学习邻接矩阵?",
         "concept",
-        "B-title I-title I-title I-title O O O"
+        "O O O O B-title I-title I-title I-title O"
     ],
     [
         "啥是邻接矩阵?",
         "concept",
         "O O B-title I-title I-title I-title O"
+    ],
+    [
+        "邻接矩阵是？",
+        "concept",
+        "B-title I-title I-title I-title O O"
     ],
     [
         "为什么引入邻接矩阵?",
@@ -6355,17 +6420,22 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
+        "邻接矩阵的原因是？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
         "邻接矩阵的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "为啥有邻接矩阵?",
+        "为啥邻接矩阵?",
         "reason",
-        "O O O B-title I-title I-title I-title O"
+        "O O B-title I-title I-title I-title O"
     ],
     [
-        "为何有邻接矩阵?",
+        "为啥有邻接矩阵?",
         "reason",
         "O O O B-title I-title I-title I-title O"
     ],
@@ -6405,6 +6475,11 @@
         "B-title I-title I-title I-title O O O"
     ],
     [
+        "邻接矩阵如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "在语言下邻接矩阵如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O O"
@@ -6418,6 +6493,11 @@
         "做邻接矩阵需要写什么？",
         "codes",
         "O B-title I-title I-title I-title O O O O O O"
+    ],
+    [
+        "如何写邻接矩阵？",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "邻接表是什么？",
@@ -6445,6 +6525,11 @@
         "B-title I-title I-title O O O O O"
     ],
     [
+        "怎么学邻接表?",
+        "concept",
+        "O O O B-title I-title I-title O"
+    ],
+    [
         "如何学习邻接表?",
         "concept",
         "O O O O B-title I-title I-title O"
@@ -6453,6 +6538,11 @@
         "邻接表是啥？",
         "concept",
         "B-title I-title I-title O O O"
+    ],
+    [
+        "啥是邻接表?",
+        "concept",
+        "O O B-title I-title I-title O"
     ],
     [
         "邻接表是？",
@@ -6498,6 +6588,11 @@
         "邻接表的情形是什么？",
         "reason",
         "B-title I-title I-title O O O O O O O"
+    ],
+    [
+        "有邻接表的理由是什么？",
+        "reason",
+        "O B-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做邻接表?",
@@ -6550,17 +6645,17 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "拓扑排序是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "什么是拓扑排序?",
         "concept",
         "O O O B-title I-title I-title I-title O"
     ],
     [
         "拓扑排序的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "拓扑排序的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
     ],
@@ -6625,6 +6720,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "为何有拓扑排序?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "拓扑排序的情形是什么？",
         "reason",
         "B-title I-title I-title I-title O O O O O O O"
@@ -6675,9 +6775,9 @@
         "O O O O B-title I-title I-title I-title O O O"
     ],
     [
-        "如何写拓扑排序？",
+        "做拓扑排序需要写什么？",
         "codes",
-        "O O O B-title I-title I-title I-title O"
+        "O B-title I-title I-title I-title O O O O O O"
     ],
     [
         "最短路径是什么？",
@@ -6725,9 +6825,19 @@
         "O O B-title I-title I-title I-title O"
     ],
     [
+        "最短路径是？",
+        "concept",
+        "B-title I-title I-title I-title O O"
+    ],
+    [
         "为什么引入最短路径?",
         "reason",
         "O O O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "最短路径有什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "最短路径什么用？",
@@ -6743,11 +6853,6 @@
         "最短路径的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "为啥最短路径?",
-        "reason",
-        "O O B-title I-title I-title I-title O"
     ],
     [
         "为啥有最短路径?",
@@ -6778,11 +6883,6 @@
         "如何实现最短路径？",
         "codes",
         "O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "最短路径怎么写？",
-        "codes",
-        "B-title I-title I-title I-title O O O O"
     ],
     [
         "怎么写最短路径代码？",
@@ -6835,11 +6935,6 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "关键路径的含义是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "关键路径什么意思？",
         "concept",
         "B-title I-title I-title I-title O O O O O"
@@ -6853,11 +6948,6 @@
         "如何学习关键路径?",
         "concept",
         "O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "关键路径是啥？",
-        "concept",
-        "B-title I-title I-title I-title O O O"
     ],
     [
         "啥是关键路径?",
@@ -6905,6 +6995,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "为何有关键路径?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "关键路径的情形是什么？",
         "reason",
         "B-title I-title I-title I-title O O O O O O O"
@@ -6940,6 +7035,11 @@
         "B-title I-title I-title I-title O O O"
     ],
     [
+        "关键路径如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "在语言下关键路径如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O O"
@@ -6965,16 +7065,6 @@
         "B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "什么是最小生成树?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
-        "最小生成树的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "最小生成树的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O O O O"
@@ -6993,6 +7083,11 @@
         "如何学习最小生成树?",
         "concept",
         "O O O O B-title I-title I-title I-title I-title O"
+    ],
+    [
+        "最小生成树是啥？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O"
     ],
     [
         "啥是最小生成树?",
@@ -7060,11 +7155,6 @@
         "B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么写最小生成树代码？",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "最小生成树代码？",
         "codes",
         "B-title I-title I-title I-title I-title O O O"
@@ -7100,16 +7190,6 @@
         "B-title I-title I-title O O O O"
     ],
     [
-        "什么是二分图?",
-        "concept",
-        "O O O B-title I-title I-title O"
-    ],
-    [
-        "二分图的概念是什么？",
-        "concept",
-        "B-title I-title I-title O O O O O O O"
-    ],
-    [
         "二分图的含义是什么？",
         "concept",
         "B-title I-title I-title O O O O O O O"
@@ -7118,11 +7198,6 @@
         "二分图什么意思？",
         "concept",
         "B-title I-title I-title O O O O O"
-    ],
-    [
-        "怎么学二分图?",
-        "concept",
-        "O O O B-title I-title I-title O"
     ],
     [
         "如何学习二分图?",
@@ -7185,6 +7260,11 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "二分图的情形是什么？",
+        "reason",
+        "B-title I-title I-title O O O O O O O"
+    ],
+    [
         "有二分图的理由是什么？",
         "reason",
         "O B-title I-title I-title O O O O O O O"
@@ -7203,6 +7283,11 @@
         "二分图怎么写？",
         "codes",
         "B-title I-title I-title O O O O"
+    ],
+    [
+        "怎么写二分图代码？",
+        "codes",
+        "O O O B-title I-title I-title O O O"
     ],
     [
         "二分图代码？",
@@ -7240,11 +7325,6 @@
         "B-title I-title I-title O O O O"
     ],
     [
-        "什么是最大流?",
-        "concept",
-        "O O O B-title I-title I-title O"
-    ],
-    [
         "最大流的概念是什么？",
         "concept",
         "B-title I-title I-title O O O O O O O"
@@ -7260,11 +7340,6 @@
         "B-title I-title I-title O O O O O"
     ],
     [
-        "怎么学最大流?",
-        "concept",
-        "O O O B-title I-title I-title O"
-    ],
-    [
         "如何学习最大流?",
         "concept",
         "O O O O B-title I-title I-title O"
@@ -7278,11 +7353,6 @@
         "啥是最大流?",
         "concept",
         "O O B-title I-title I-title O"
-    ],
-    [
-        "最大流是？",
-        "concept",
-        "B-title I-title I-title O O"
     ],
     [
         "为什么引入最大流?",
@@ -7340,6 +7410,11 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "如何实现最大流？",
+        "codes",
+        "O O O O B-title I-title I-title O"
+    ],
+    [
         "最大流怎么写？",
         "codes",
         "B-title I-title I-title O O O O"
@@ -7348,11 +7423,6 @@
         "怎么写最大流代码？",
         "codes",
         "O O O B-title I-title I-title O O O"
-    ],
-    [
-        "最大流代码？",
-        "codes",
-        "B-title I-title I-title O O O"
     ],
     [
         "最大流如何做？",
@@ -7385,9 +7455,9 @@
         "B-title I-title O O O O"
     ],
     [
-        "什么是算法?",
+        "算法的概念是什么？",
         "concept",
-        "O O O B-title I-title O"
+        "B-title I-title O O O O O O O"
     ],
     [
         "算法什么意思？",
@@ -7500,6 +7570,11 @@
         "B-title I-title O O O O"
     ],
     [
+        "在语言下算法如何做？",
+        "codes",
+        "O O O O B-title I-title O O O O"
+    ],
+    [
         "怎么完成算法任务？",
         "codes",
         "O O O O B-title I-title O O O"
@@ -7508,6 +7583,11 @@
         "做算法需要写什么？",
         "codes",
         "O B-title I-title O O O O O O"
+    ],
+    [
+        "如何写算法？",
+        "codes",
+        "O O O B-title I-title O"
     ],
     [
         "排序是什么？",
@@ -7535,9 +7615,14 @@
         "B-title I-title O O O O O"
     ],
     [
-        "如何学习排序?",
+        "怎么学排序?",
         "concept",
-        "O O O O B-title I-title O"
+        "O O O B-title I-title O"
+    ],
+    [
+        "排序是啥？",
+        "concept",
+        "B-title I-title O O O"
     ],
     [
         "啥是排序?",
@@ -7575,11 +7660,6 @@
         "B-title I-title O O O O O"
     ],
     [
-        "为啥排序?",
-        "reason",
-        "O O B-title I-title O"
-    ],
-    [
         "为啥有排序?",
         "reason",
         "O O O B-title I-title O"
@@ -7595,6 +7675,11 @@
         "B-title I-title O O O O O O O"
     ],
     [
+        "有排序的理由是什么？",
+        "reason",
+        "O B-title I-title O O O O O O O"
+    ],
+    [
         "怎么做排序?",
         "codes",
         "O O O B-title I-title O"
@@ -7608,11 +7693,6 @@
         "排序怎么写？",
         "codes",
         "B-title I-title O O O O"
-    ],
-    [
-        "怎么写排序代码？",
-        "codes",
-        "O O O B-title I-title O O O"
     ],
     [
         "排序代码？",
@@ -7640,11 +7720,6 @@
         "O B-title I-title O O O O O O"
     ],
     [
-        "如何写排序？",
-        "codes",
-        "O O O B-title I-title O"
-    ],
-    [
         "O(n^2)排序是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title I-title I-title O O O O"
@@ -7663,11 +7738,6 @@
         "O(n^2)排序的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "O(n^2)排序什么意思？",
-        "concept",
-        "B-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
         "怎么学O(n^2)排序?",
@@ -7715,19 +7785,24 @@
         "B-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
+        "O(n^2)排序的成因是？",
+        "reason",
+        "B-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
+    ],
+    [
         "为啥O(n^2)排序?",
         "reason",
         "O O B-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "为啥有O(n^2)排序?",
+        "为何有O(n^2)排序?",
         "reason",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "为何有O(n^2)排序?",
+        "O(n^2)排序的情形是什么？",
         "reason",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title O"
+        "B-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有O(n^2)排序的理由是什么？",
@@ -7750,11 +7825,6 @@
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title O O O"
     ],
     [
-        "O(n^2)排序代码？",
-        "codes",
-        "B-title I-title I-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "O(n^2)排序如何做？",
         "codes",
         "B-title I-title I-title I-title I-title I-title I-title I-title O O O O"
@@ -7765,6 +7835,16 @@
         "O O O O B-title I-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
+        "怎么完成O(n^2)排序任务？",
+        "codes",
+        "O O O O B-title I-title I-title I-title I-title I-title I-title I-title O O O"
+    ],
+    [
+        "做O(n^2)排序需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title I-title I-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写O(n^2)排序？",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title O"
@@ -7773,11 +7853,6 @@
         "冒泡排序是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是冒泡排序?",
-        "concept",
-        "O O O B-title I-title I-title I-title O"
     ],
     [
         "冒泡排序的概念是什么？",
@@ -7805,6 +7880,11 @@
         "O O O O B-title I-title I-title I-title O"
     ],
     [
+        "冒泡排序是啥？",
+        "concept",
+        "B-title I-title I-title I-title O O O"
+    ],
+    [
         "啥是冒泡排序?",
         "concept",
         "O O B-title I-title I-title I-title O"
@@ -7820,9 +7900,14 @@
         "O O O O O B-title I-title I-title I-title O"
     ],
     [
-        "冒泡排序什么用？",
+        "冒泡排序有什么用？",
         "reason",
-        "B-title I-title I-title I-title O O O O"
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "冒泡排序的原因是？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "冒泡排序的成因是？",
@@ -7870,11 +7955,6 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么写冒泡排序代码？",
-        "codes",
-        "O O O B-title I-title I-title I-title O O O"
-    ],
-    [
         "冒泡排序代码？",
         "codes",
         "B-title I-title I-title I-title O O O"
@@ -7893,16 +7973,6 @@
         "怎么完成冒泡排序任务？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O"
-    ],
-    [
-        "做冒泡排序需要写什么？",
-        "codes",
-        "O B-title I-title I-title I-title O O O O O O"
-    ],
-    [
-        "如何写冒泡排序？",
-        "codes",
-        "O O O B-title I-title I-title I-title O"
     ],
     [
         "插入排序是什么？",
@@ -7925,11 +7995,6 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "插入排序什么意思？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O"
-    ],
-    [
         "怎么学插入排序?",
         "concept",
         "O O O B-title I-title I-title I-title O"
@@ -7950,14 +8015,14 @@
         "O O B-title I-title I-title I-title O"
     ],
     [
+        "插入排序是？",
+        "concept",
+        "B-title I-title I-title I-title O O"
+    ],
+    [
         "为什么引入插入排序?",
         "reason",
         "O O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "插入排序有什么用？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "插入排序什么用？",
@@ -7965,14 +8030,14 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "插入排序的成因是？",
+        "插入排序的原因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "为啥插入排序?",
+        "插入排序的成因是？",
         "reason",
-        "O O B-title I-title I-title I-title O"
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "为啥有插入排序?",
@@ -7993,6 +8058,11 @@
         "有插入排序的理由是什么？",
         "reason",
         "O B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "怎么做插入排序?",
+        "codes",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "如何实现插入排序？",
@@ -8018,6 +8088,11 @@
         "插入排序如何做？",
         "codes",
         "B-title I-title I-title I-title O O O O"
+    ],
+    [
+        "在语言下插入排序如何做？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O O O O"
     ],
     [
         "怎么完成插入排序任务？",
@@ -8095,12 +8170,12 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "选择排序的原因是？",
+        "选择排序什么用？",
         "reason",
-        "B-title I-title I-title I-title O O O O O"
+        "B-title I-title I-title I-title O O O O"
     ],
     [
-        "选择排序的成因是？",
+        "选择排序的原因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
@@ -8113,6 +8188,16 @@
         "为啥有选择排序?",
         "reason",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "为何有选择排序?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "选择排序的情形是什么？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有选择排序的理由是什么？",
@@ -8148,11 +8233,6 @@
         "选择排序如何做？",
         "codes",
         "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "在语言下选择排序如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
     ],
     [
         "怎么完成选择排序任务？",
@@ -8230,6 +8310,11 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "希尔排序什么用？",
+        "reason",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "希尔排序的原因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
@@ -8243,11 +8328,6 @@
         "为啥希尔排序?",
         "reason",
         "O O B-title I-title I-title I-title O"
-    ],
-    [
-        "为啥有希尔排序?",
-        "reason",
-        "O O O B-title I-title I-title I-title O"
     ],
     [
         "为何有希尔排序?",
@@ -8270,6 +8350,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "如何实现希尔排序？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O"
+    ],
+    [
         "希尔排序怎么写？",
         "codes",
         "B-title I-title I-title I-title O O O O"
@@ -8278,11 +8363,6 @@
         "怎么写希尔排序代码？",
         "codes",
         "O O O B-title I-title I-title I-title O O O"
-    ],
-    [
-        "希尔排序代码？",
-        "codes",
-        "B-title I-title I-title I-title O O O"
     ],
     [
         "希尔排序如何做？",
@@ -8325,14 +8405,9 @@
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "O(nlogn)排序的含义是什么？",
+        "O(nlogn)排序什么意思？",
         "concept",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "怎么学O(nlogn)排序?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
+        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
         "如何学习O(nlogn)排序?",
@@ -8358,11 +8433,6 @@
         "为什么引入O(nlogn)排序?",
         "reason",
         "O O O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "O(nlogn)排序有什么用？",
-        "reason",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
         "O(nlogn)排序什么用？",
@@ -8405,11 +8475,6 @@
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "如何实现O(nlogn)排序？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
         "O(nlogn)排序怎么写？",
         "codes",
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O"
@@ -8418,11 +8483,6 @@
         "怎么写O(nlogn)排序代码？",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
-        "O(nlogn)排序代码？",
-        "codes",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O"
     ],
     [
         "O(nlogn)排序如何做？",
@@ -8453,11 +8513,6 @@
         "归并排序是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是归并排序?",
-        "concept",
-        "O O O B-title I-title I-title I-title O"
     ],
     [
         "归并排序的概念是什么？",
@@ -8590,19 +8645,24 @@
         "O O O O B-title I-title I-title I-title O O O"
     ],
     [
+        "做归并排序需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写归并排序？",
         "codes",
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "快速排序是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
         "什么是快速排序?",
         "concept",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "快速排序的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "快速排序的含义是什么？",
@@ -8620,16 +8680,6 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
-        "如何学习快速排序?",
-        "concept",
-        "O O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "快速排序是啥？",
-        "concept",
-        "B-title I-title I-title I-title O O O"
-    ],
-    [
         "啥是快速排序?",
         "concept",
         "O O B-title I-title I-title I-title O"
@@ -8638,11 +8688,6 @@
         "快速排序是？",
         "concept",
         "B-title I-title I-title I-title O O"
-    ],
-    [
-        "为什么引入快速排序?",
-        "reason",
-        "O O O O O B-title I-title I-title I-title O"
     ],
     [
         "快速排序有什么用？",
@@ -8678,6 +8723,11 @@
         "快速排序的情形是什么？",
         "reason",
         "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "有快速排序的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做快速排序?",
@@ -8765,9 +8815,9 @@
         "O O O O B-title I-title I-title O"
     ],
     [
-        "啥是堆排序?",
+        "堆排序是啥？",
         "concept",
-        "O O B-title I-title I-title O"
+        "B-title I-title I-title O O O"
     ],
     [
         "堆排序是？",
@@ -8825,19 +8875,9 @@
         "O B-title I-title I-title O O O O O O O"
     ],
     [
-        "怎么做堆排序?",
-        "codes",
-        "O O O B-title I-title I-title O"
-    ],
-    [
         "如何实现堆排序？",
         "codes",
         "O O O O B-title I-title I-title O"
-    ],
-    [
-        "堆排序怎么写？",
-        "codes",
-        "B-title I-title I-title O O O O"
     ],
     [
         "怎么写堆排序代码？",
@@ -8855,19 +8895,9 @@
         "B-title I-title I-title O O O O"
     ],
     [
-        "在语言下堆排序如何做？",
-        "codes",
-        "O O O O B-title I-title I-title O O O O"
-    ],
-    [
         "怎么完成堆排序任务？",
         "codes",
         "O O O O B-title I-title I-title O O O"
-    ],
-    [
-        "做堆排序需要写什么？",
-        "codes",
-        "O B-title I-title I-title O O O O O O"
     ],
     [
         "如何写堆排序？",
@@ -8898,11 +8928,6 @@
         "二叉排序树排序什么意思？",
         "concept",
         "B-title I-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "怎么学二叉排序树排序?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
         "如何学习二叉排序树排序?",
@@ -9025,6 +9050,11 @@
         "B-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
+        "什么是O(n)排序?",
+        "concept",
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
         "O(n)排序的概念是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O O O"
@@ -9038,11 +9068,6 @@
         "O(n)排序什么意思？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "怎么学O(n)排序?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "如何学习O(n)排序?",
@@ -9105,6 +9130,16 @@
         "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
+        "O(n)排序的情形是什么？",
+        "reason",
+        "B-title I-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "有O(n)排序的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "怎么做O(n)排序?",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title O"
@@ -9125,24 +9160,9 @@
         "O O O B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
-        "O(n)排序代码？",
-        "codes",
-        "B-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "O(n)排序如何做？",
         "codes",
         "B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "在语言下O(n)排序如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成O(n)排序任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
         "做O(n)排序需要写什么？",
@@ -9175,9 +9195,14 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "计数排序什么意思？",
+        "怎么学计数排序?",
         "concept",
-        "B-title I-title I-title I-title O O O O O"
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "如何学习计数排序?",
+        "concept",
+        "O O O O B-title I-title I-title I-title O"
     ],
     [
         "计数排序是啥？",
@@ -9220,6 +9245,11 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
+        "为啥计数排序?",
+        "reason",
+        "O O B-title I-title I-title I-title O"
+    ],
+    [
         "为啥有计数排序?",
         "reason",
         "O O O B-title I-title I-title I-title O"
@@ -9228,11 +9258,6 @@
         "为何有计数排序?",
         "reason",
         "O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "计数排序的情形是什么？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有计数排序的理由是什么？",
@@ -9260,11 +9285,6 @@
         "O O O B-title I-title I-title I-title O O O"
     ],
     [
-        "计数排序代码？",
-        "codes",
-        "B-title I-title I-title I-title O O O"
-    ],
-    [
         "计数排序如何做？",
         "codes",
         "B-title I-title I-title I-title O O O O"
@@ -9280,18 +9300,13 @@
         "O O O O B-title I-title I-title I-title O O O"
     ],
     [
+        "做计数排序需要写什么？",
+        "codes",
+        "O B-title I-title I-title I-title O O O O O O"
+    ],
+    [
         "如何写计数排序？",
         "codes",
-        "O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "基数排序是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "什么是基数排序?",
-        "concept",
         "O O O B-title I-title I-title I-title O"
     ],
     [
@@ -9305,24 +9320,24 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
+        "基数排序什么意思？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O"
+    ],
+    [
         "怎么学基数排序?",
         "concept",
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "如何学习基数排序?",
+        "concept",
+        "O O O O B-title I-title I-title I-title O"
+    ],
+    [
         "基数排序是啥？",
         "concept",
         "B-title I-title I-title I-title O O O"
-    ],
-    [
-        "啥是基数排序?",
-        "concept",
-        "O O B-title I-title I-title I-title O"
-    ],
-    [
-        "基数排序是？",
-        "concept",
-        "B-title I-title I-title I-title O O"
     ],
     [
         "为什么引入基数排序?",
@@ -9350,6 +9365,11 @@
         "O O B-title I-title I-title I-title O"
     ],
     [
+        "为啥有基数排序?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
+    ],
+    [
         "为何有基数排序?",
         "reason",
         "O O O B-title I-title I-title I-title O"
@@ -9358,11 +9378,6 @@
         "基数排序的情形是什么？",
         "reason",
         "B-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "有基数排序的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做基数排序?",
@@ -9393,16 +9408,6 @@
         "基数排序如何做？",
         "codes",
         "B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "在语言下基数排序如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成基数排序任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O"
     ],
     [
         "做基数排序需要写什么？",
@@ -9438,6 +9443,11 @@
         "桶排序什么意思？",
         "concept",
         "B-title I-title I-title O O O O O"
+    ],
+    [
+        "怎么学桶排序?",
+        "concept",
+        "O O O B-title I-title I-title O"
     ],
     [
         "如何学习桶排序?",
@@ -9485,6 +9495,11 @@
         "B-title I-title I-title O O O O O"
     ],
     [
+        "为啥桶排序?",
+        "reason",
+        "O O B-title I-title I-title O"
+    ],
+    [
         "为啥有桶排序?",
         "reason",
         "O O O B-title I-title I-title O"
@@ -9495,11 +9510,6 @@
         "O O O B-title I-title I-title O"
     ],
     [
-        "桶排序的情形是什么？",
-        "reason",
-        "B-title I-title I-title O O O O O O O"
-    ],
-    [
         "有桶排序的理由是什么？",
         "reason",
         "O B-title I-title I-title O O O O O O O"
@@ -9508,6 +9518,11 @@
         "怎么做桶排序?",
         "codes",
         "O O O B-title I-title I-title O"
+    ],
+    [
+        "如何实现桶排序？",
+        "codes",
+        "O O O O B-title I-title I-title O"
     ],
     [
         "桶排序怎么写？",
@@ -9598,6 +9613,11 @@
         "搜索是？",
         "concept",
         "B-title I-title O O"
+    ],
+    [
+        "为什么引入搜索?",
+        "reason",
+        "O O O O O B-title I-title O"
     ],
     [
         "搜索有什么用？",
@@ -9700,6 +9720,11 @@
         "B-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
+        "什么是深度优先搜索?",
+        "concept",
+        "O O O B-title I-title I-title I-title I-title I-title O"
+    ],
+    [
         "深度优先搜索的概念是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O O O"
@@ -9713,11 +9738,6 @@
         "深度优先搜索什么意思？",
         "concept",
         "B-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "怎么学深度优先搜索?",
-        "concept",
-        "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
         "如何学习深度优先搜索?",
@@ -9756,11 +9776,6 @@
     ],
     [
         "深度优先搜索的原因是？",
-        "reason",
-        "B-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "深度优先搜索的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title I-title O O O O O"
     ],
@@ -9815,19 +9830,9 @@
         "B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
-        "深度优先搜索如何做？",
-        "codes",
-        "B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
         "在语言下深度优先搜索如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成深度优先搜索任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
         "做深度优先搜索需要写什么？",
@@ -9925,16 +9930,6 @@
         "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "为何有广度优先搜索?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "广度优先搜索的情形是什么？",
-        "reason",
-        "B-title I-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "有广度优先搜索的理由是什么？",
         "reason",
         "O B-title I-title I-title I-title I-title I-title O O O O O O O"
@@ -9960,14 +9955,14 @@
         "O O O B-title I-title I-title I-title I-title I-title O O O"
     ],
     [
+        "广度优先搜索代码？",
+        "codes",
+        "B-title I-title I-title I-title I-title I-title O O O"
+    ],
+    [
         "广度优先搜索如何做？",
         "codes",
         "B-title I-title I-title I-title I-title I-title O O O O"
-    ],
-    [
-        "在语言下广度优先搜索如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
         "怎么完成广度优先搜索任务？",
@@ -9985,9 +9980,14 @@
         "O O O B-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "A*启发式搜索的概念是什么？",
+        "A*启发式搜索是什么？",
         "concept",
-        "B-title I-title I-title I-title I-title I-title I-title O O O O O O O"
+        "B-title I-title I-title I-title I-title I-title I-title O O O O"
+    ],
+    [
+        "什么是A*启发式搜索?",
+        "concept",
+        "O O O B-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
         "A*启发式搜索的含义是什么？",
@@ -10035,7 +10035,7 @@
         "B-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
-        "A*启发式搜索的原因是？",
+        "A*启发式搜索的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
@@ -10060,6 +10060,11 @@
         "B-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
+        "有A*启发式搜索的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "怎么做A*启发式搜索?",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title I-title O"
@@ -10073,6 +10078,11 @@
         "A*启发式搜索怎么写？",
         "codes",
         "B-title I-title I-title I-title I-title I-title I-title O O O O"
+    ],
+    [
+        "怎么写A*启发式搜索代码？",
+        "codes",
+        "O O O B-title I-title I-title I-title I-title I-title I-title O O O"
     ],
     [
         "A*启发式搜索代码？",
@@ -10090,19 +10100,9 @@
         "O O O O B-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成A*启发式搜索任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "做A*启发式搜索需要写什么？",
         "codes",
         "O B-title I-title I-title I-title I-title I-title I-title O O O O O O"
-    ],
-    [
-        "如何写A*启发式搜索？",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
         "查找是什么？",
@@ -10125,6 +10125,21 @@
         "B-title I-title O O O O O O O"
     ],
     [
+        "查找什么意思？",
+        "concept",
+        "B-title I-title O O O O O"
+    ],
+    [
+        "怎么学查找?",
+        "concept",
+        "O O O B-title I-title O"
+    ],
+    [
+        "如何学习查找?",
+        "concept",
+        "O O O O B-title I-title O"
+    ],
+    [
         "查找是啥？",
         "concept",
         "B-title I-title O O O"
@@ -10140,6 +10155,11 @@
         "B-title I-title O O"
     ],
     [
+        "为什么引入查找?",
+        "reason",
+        "O O O O O B-title I-title O"
+    ],
+    [
         "查找有什么用？",
         "reason",
         "B-title I-title O O O O O"
@@ -10151,6 +10171,11 @@
     ],
     [
         "查找的原因是？",
+        "reason",
+        "B-title I-title O O O O O"
+    ],
+    [
+        "查找的成因是？",
         "reason",
         "B-title I-title O O O O O"
     ],
@@ -10175,11 +10200,6 @@
         "B-title I-title O O O O O O O"
     ],
     [
-        "有查找的理由是什么？",
-        "reason",
-        "O B-title I-title O O O O O O O"
-    ],
-    [
         "怎么做查找?",
         "codes",
         "O O O B-title I-title O"
@@ -10190,9 +10210,19 @@
         "O O O O B-title I-title O"
     ],
     [
+        "查找怎么写？",
+        "codes",
+        "B-title I-title O O O O"
+    ],
+    [
         "怎么写查找代码？",
         "codes",
         "O O O B-title I-title O O O"
+    ],
+    [
+        "查找代码？",
+        "codes",
+        "B-title I-title O O O"
     ],
     [
         "查找如何做？",
@@ -10290,11 +10320,6 @@
         "B-title I-title I-title I-title I-title O O O O O"
     ],
     [
-        "线性表查找的成因是？",
-        "reason",
-        "B-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
         "为啥线性表查找?",
         "reason",
         "O O B-title I-title I-title I-title I-title O"
@@ -10313,6 +10338,11 @@
         "线性表查找的情形是什么？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "有线性表查找的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做线性表查找?",
@@ -10335,6 +10365,11 @@
         "O O O B-title I-title I-title I-title I-title O O O"
     ],
     [
+        "线性表查找代码？",
+        "codes",
+        "B-title I-title I-title I-title I-title O O O"
+    ],
+    [
         "线性表查找如何做？",
         "codes",
         "B-title I-title I-title I-title I-title O O O O"
@@ -10345,14 +10380,14 @@
         "O O O O B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成线性表查找任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "做线性表查找需要写什么？",
         "codes",
         "O B-title I-title I-title I-title I-title O O O O O O"
+    ],
+    [
+        "如何写线性表查找？",
+        "codes",
+        "O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "树结构查找是什么？",
@@ -10385,16 +10420,6 @@
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "如何学习树结构查找?",
-        "concept",
-        "O O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
-        "树结构查找是啥？",
-        "concept",
-        "B-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "啥是树结构查找?",
         "concept",
         "O O B-title I-title I-title I-title I-title O"
@@ -10413,6 +10438,11 @@
         "树结构查找有什么用？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
+    ],
+    [
+        "树结构查找什么用？",
+        "reason",
+        "B-title I-title I-title I-title I-title O O O O"
     ],
     [
         "树结构查找的原因是？",
@@ -10435,14 +10465,14 @@
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "为何有树结构查找?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
         "树结构查找的情形是什么？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "有树结构查找的理由是什么？",
+        "reason",
+        "O B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做树结构查找?",
@@ -10480,11 +10510,6 @@
         "O O O O B-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成树结构查找任务？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title O O O"
-    ],
-    [
         "做树结构查找需要写什么？",
         "codes",
         "O B-title I-title I-title I-title I-title O O O O O O"
@@ -10506,6 +10531,11 @@
     ],
     [
         "散列表查找的概念是什么？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "散列表查找的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title O O O O O O O"
     ],
@@ -10570,19 +10600,9 @@
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "为何有散列表查找?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title O"
-    ],
-    [
         "散列表查找的情形是什么？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "有散列表查找的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做散列表查找?",
@@ -10608,6 +10628,11 @@
         "散列表查找代码？",
         "codes",
         "B-title I-title I-title I-title I-title O O O"
+    ],
+    [
+        "散列表查找如何做？",
+        "codes",
+        "B-title I-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下散列表查找如何做？",
@@ -10660,6 +10685,11 @@
         "O O O O B-title I-title I-title I-title I-title O"
     ],
     [
+        "字符串匹配是啥？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O"
+    ],
+    [
         "啥是字符串匹配?",
         "concept",
         "O O B-title I-title I-title I-title I-title O"
@@ -10670,9 +10700,9 @@
         "B-title I-title I-title I-title I-title O O"
     ],
     [
-        "字符串匹配有什么用？",
+        "为什么引入字符串匹配?",
         "reason",
-        "B-title I-title I-title I-title I-title O O O O O"
+        "O O O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "字符串匹配什么用？",
@@ -10690,6 +10720,11 @@
         "B-title I-title I-title I-title I-title O O O O O"
     ],
     [
+        "为啥字符串匹配?",
+        "reason",
+        "O O B-title I-title I-title I-title I-title O"
+    ],
+    [
         "为啥有字符串匹配?",
         "reason",
         "O O O B-title I-title I-title I-title I-title O"
@@ -10700,19 +10735,9 @@
         "O O O B-title I-title I-title I-title I-title O"
     ],
     [
-        "字符串匹配的情形是什么？",
-        "reason",
-        "B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
         "有字符串匹配的理由是什么？",
         "reason",
         "O B-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "怎么做字符串匹配?",
-        "codes",
-        "O O O B-title I-title I-title I-title I-title O"
     ],
     [
         "如何实现字符串匹配？",
@@ -10730,6 +10755,11 @@
         "O O O B-title I-title I-title I-title I-title O O O"
     ],
     [
+        "字符串匹配代码？",
+        "codes",
+        "B-title I-title I-title I-title I-title O O O"
+    ],
+    [
         "字符串匹配如何做？",
         "codes",
         "B-title I-title I-title I-title I-title O O O O"
@@ -10738,6 +10768,11 @@
         "在语言下字符串匹配如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title O O O O"
+    ],
+    [
+        "怎么完成字符串匹配任务？",
+        "codes",
+        "O O O O B-title I-title I-title I-title I-title O O O"
     ],
     [
         "做字符串匹配需要写什么？",
@@ -10815,6 +10850,11 @@
         "B-title I-title O O O O"
     ],
     [
+        "朴素的原因是？",
+        "reason",
+        "B-title I-title O O O O O"
+    ],
+    [
         "朴素的成因是？",
         "reason",
         "B-title I-title O O O O O"
@@ -10878,11 +10918,6 @@
         "在语言下朴素如何做？",
         "codes",
         "O O O O B-title I-title O O O O"
-    ],
-    [
-        "怎么完成朴素任务？",
-        "codes",
-        "O O O O B-title I-title O O O"
     ],
     [
         "做朴素需要写什么？",
@@ -10950,9 +10985,19 @@
         "O O O O O B-title I-title I-title O"
     ],
     [
+        "KMP有什么用？",
+        "reason",
+        "B-title I-title I-title O O O O O"
+    ],
+    [
         "KMP什么用？",
         "reason",
         "B-title I-title I-title O O O O"
+    ],
+    [
+        "KMP的原因是？",
+        "reason",
+        "B-title I-title I-title O O O O O"
     ],
     [
         "KMP的成因是？",
@@ -11005,24 +11050,9 @@
         "O O O B-title I-title I-title O O O"
     ],
     [
-        "KMP代码？",
-        "codes",
-        "B-title I-title I-title O O O"
-    ],
-    [
-        "KMP如何做？",
-        "codes",
-        "B-title I-title I-title O O O O"
-    ],
-    [
         "在语言下KMP如何做？",
         "codes",
         "O O O O B-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成KMP任务？",
-        "codes",
-        "O O O O B-title I-title I-title O O O"
     ],
     [
         "做KMP需要写什么？",
@@ -11053,6 +11083,11 @@
         "Robin-Krap的含义是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "Robin-Krap什么意思？",
+        "concept",
+        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
     ],
     [
         "怎么学Robin-Krap?",
@@ -11095,11 +11130,6 @@
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "Robin-Krap的原因是？",
-        "reason",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
         "Robin-Krap的成因是？",
         "reason",
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
@@ -11111,11 +11141,6 @@
     ],
     [
         "为啥有Robin-Krap?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "为何有Robin-Krap?",
         "reason",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
@@ -11133,11 +11158,6 @@
         "怎么做Robin-Krap?",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "如何实现Robin-Krap？",
-        "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
         "Robin-Krap怎么写？",
@@ -11190,14 +11210,14 @@
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "Boyer-Moore的含义是什么？",
+        "Boyer-Moore的概念是什么？",
         "concept",
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "Boyer-Moore什么意思？",
+        "Boyer-Moore的含义是什么？",
         "concept",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O"
+        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么学Boyer-Moore?",
@@ -11255,24 +11275,9 @@
         "O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
     ],
     [
-        "为啥有Boyer-Moore?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
-        "为何有Boyer-Moore?",
-        "reason",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
-    ],
-    [
         "Boyer-Moore的情形是什么？",
         "reason",
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
-    ],
-    [
-        "有Boyer-Moore的理由是什么？",
-        "reason",
-        "O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么做Boyer-Moore?",
@@ -11290,14 +11295,9 @@
         "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么写Boyer-Moore代码？",
+        "Boyer-Moore如何做？",
         "codes",
-        "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O"
-    ],
-    [
-        "Boyer-Moore代码？",
-        "codes",
-        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O"
+        "B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下Boyer-Moore如何做？",
@@ -11305,14 +11305,19 @@
         "O O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O"
     ],
     [
-        "怎么完成Boyer-Moore任务？",
+        "做Boyer-Moore需要写什么？",
         "codes",
-        "O O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O"
+        "O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O O O O O O"
     ],
     [
         "如何写Boyer-Moore？",
         "codes",
         "O O O B-title I-title I-title I-title I-title I-title I-title I-title I-title I-title I-title O"
+    ],
+    [
+        "AC自动机是什么？",
+        "concept",
+        "B-title I-title I-title I-title I-title O O O O"
     ],
     [
         "什么是AC自动机?",
@@ -11368,11 +11373,6 @@
         "AC自动机有什么用？",
         "reason",
         "B-title I-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "AC自动机什么用？",
-        "reason",
-        "B-title I-title I-title I-title I-title O O O O"
     ],
     [
         "AC自动机的原因是？",
@@ -11435,11 +11435,6 @@
         "B-title I-title I-title I-title I-title O O O"
     ],
     [
-        "AC自动机如何做？",
-        "codes",
-        "B-title I-title I-title I-title I-title O O O O"
-    ],
-    [
         "在语言下AC自动机如何做？",
         "codes",
         "O O O O B-title I-title I-title I-title I-title O O O O"
@@ -11475,9 +11470,9 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
-        "Trie什么意思？",
+        "Trie的含义是什么？",
         "concept",
-        "B-title I-title I-title I-title O O O O O"
+        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "怎么学Trie?",
@@ -11505,27 +11500,12 @@
         "B-title I-title I-title I-title O O"
     ],
     [
-        "为什么引入Trie?",
-        "reason",
-        "O O O O O B-title I-title I-title I-title O"
-    ],
-    [
         "Trie有什么用？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "Trie什么用？",
-        "reason",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
         "Trie的原因是？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
-    ],
-    [
-        "Trie的成因是？",
         "reason",
         "B-title I-title I-title I-title O O O O O"
     ],
@@ -11560,6 +11540,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "如何实现Trie？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O"
+    ],
+    [
         "Trie怎么写？",
         "codes",
         "B-title I-title I-title I-title O O O O"
@@ -11573,6 +11558,11 @@
         "Trie代码？",
         "codes",
         "B-title I-title I-title I-title O O O"
+    ],
+    [
+        "Trie如何做？",
+        "codes",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "在语言下Trie如何做？",
@@ -11605,6 +11595,11 @@
         "O O O B-title I-title O"
     ],
     [
+        "数学的概念是什么？",
+        "concept",
+        "B-title I-title O O O O O O O"
+    ],
+    [
         "数学的含义是什么？",
         "concept",
         "B-title I-title O O O O O O O"
@@ -11620,9 +11615,9 @@
         "O O O B-title I-title O"
     ],
     [
-        "数学是啥？",
+        "如何学习数学?",
         "concept",
-        "B-title I-title O O O"
+        "O O O O B-title I-title O"
     ],
     [
         "啥是数学?",
@@ -11660,11 +11655,6 @@
         "B-title I-title O O O O O"
     ],
     [
-        "为啥数学?",
-        "reason",
-        "O O B-title I-title O"
-    ],
-    [
         "为啥有数学?",
         "reason",
         "O O O B-title I-title O"
@@ -11695,11 +11685,6 @@
         "O O O O B-title I-title O"
     ],
     [
-        "数学怎么写？",
-        "codes",
-        "B-title I-title O O O O"
-    ],
-    [
         "怎么写数学代码？",
         "codes",
         "O O O B-title I-title O O O"
@@ -11718,11 +11703,6 @@
         "在语言下数学如何做？",
         "codes",
         "O O O O B-title I-title O O O O"
-    ],
-    [
-        "怎么完成数学任务？",
-        "codes",
-        "O O O O B-title I-title O O O"
     ],
     [
         "做数学需要写什么？",
@@ -11773,11 +11753,6 @@
         "数论是啥？",
         "concept",
         "B-title I-title O O O"
-    ],
-    [
-        "啥是数论?",
-        "concept",
-        "O O B-title I-title O"
     ],
     [
         "数论是？",
@@ -11855,11 +11830,6 @@
         "O O O B-title I-title O O O"
     ],
     [
-        "数论代码？",
-        "codes",
-        "B-title I-title O O O"
-    ],
-    [
         "数论如何做？",
         "codes",
         "B-title I-title O O O O"
@@ -11893,11 +11863,6 @@
         "什么是计算几何?",
         "concept",
         "O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "计算几何的概念是什么？",
-        "concept",
-        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "计算几何的含义是什么？",
@@ -12015,11 +11980,6 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "在语言下计算几何如何做？",
-        "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
-    ],
-    [
         "怎么完成计算几何任务？",
         "codes",
         "O O O O B-title I-title I-title I-title O O O"
@@ -12033,6 +11993,11 @@
         "如何写计算几何？",
         "codes",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "概率分析是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O"
     ],
     [
         "什么是概率分析?",
@@ -12105,11 +12070,6 @@
         "B-title I-title I-title I-title O O O O O"
     ],
     [
-        "为啥概率分析?",
-        "reason",
-        "O O B-title I-title I-title I-title O"
-    ],
-    [
         "为啥有概率分析?",
         "reason",
         "O O O B-title I-title I-title I-title O"
@@ -12140,11 +12100,6 @@
         "O O O O B-title I-title I-title I-title O"
     ],
     [
-        "概率分析怎么写？",
-        "codes",
-        "B-title I-title I-title I-title O O O O"
-    ],
-    [
         "怎么写概率分析代码？",
         "codes",
         "O O O B-title I-title I-title I-title O O O"
@@ -12170,32 +12125,7 @@
         "O O O O B-title I-title I-title I-title O O O"
     ],
     [
-        "做概率分析需要写什么？",
-        "codes",
-        "O B-title I-title I-title I-title O O O O O O"
-    ],
-    [
-        "如何写概率分析？",
-        "codes",
-        "O O O B-title I-title I-title I-title O"
-    ],
-    [
-        "并查集是什么？",
-        "concept",
-        "B-title I-title I-title O O O O"
-    ],
-    [
-        "什么是并查集?",
-        "concept",
-        "O O O B-title I-title I-title O"
-    ],
-    [
         "并查集的概念是什么？",
-        "concept",
-        "B-title I-title I-title O O O O O O O"
-    ],
-    [
-        "并查集的含义是什么？",
         "concept",
         "B-title I-title I-title O O O O O O O"
     ],
@@ -12215,6 +12145,11 @@
         "O O O O B-title I-title I-title O"
     ],
     [
+        "并查集是啥？",
+        "concept",
+        "B-title I-title I-title O O O"
+    ],
+    [
         "啥是并查集?",
         "concept",
         "O O B-title I-title I-title O"
@@ -12223,6 +12158,11 @@
         "并查集是？",
         "concept",
         "B-title I-title I-title O O"
+    ],
+    [
+        "为什么引入并查集?",
+        "reason",
+        "O O O O O B-title I-title I-title O"
     ],
     [
         "并查集有什么用？",
@@ -12240,17 +12180,17 @@
         "B-title I-title I-title O O O O O"
     ],
     [
-        "并查集的成因是？",
-        "reason",
-        "B-title I-title I-title O O O O O"
-    ],
-    [
         "为啥并查集?",
         "reason",
         "O O B-title I-title I-title O"
     ],
     [
         "为啥有并查集?",
+        "reason",
+        "O O O B-title I-title I-title O"
+    ],
+    [
+        "为何有并查集?",
         "reason",
         "O O O B-title I-title I-title O"
     ],
@@ -12270,9 +12210,24 @@
         "O O O B-title I-title I-title O"
     ],
     [
+        "如何实现并查集？",
+        "codes",
+        "O O O O B-title I-title I-title O"
+    ],
+    [
+        "并查集怎么写？",
+        "codes",
+        "B-title I-title I-title O O O O"
+    ],
+    [
         "怎么写并查集代码？",
         "codes",
         "O O O B-title I-title I-title O O O"
+    ],
+    [
+        "并查集代码？",
+        "codes",
+        "B-title I-title I-title O O O"
     ],
     [
         "并查集如何做？",
@@ -12283,11 +12238,6 @@
         "在语言下并查集如何做？",
         "codes",
         "O O O O B-title I-title I-title O O O O"
-    ],
-    [
-        "怎么完成并查集任务？",
-        "codes",
-        "O O O O B-title I-title I-title O O O"
     ],
     [
         "做并查集需要写什么？",
@@ -12315,6 +12265,11 @@
         "B-title I-title I-title I-title O O O O O O O"
     ],
     [
+        "拓扑网络的含义是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
         "拓扑网络什么意思？",
         "concept",
         "B-title I-title I-title I-title O O O O O"
@@ -12328,6 +12283,11 @@
         "如何学习拓扑网络?",
         "concept",
         "O O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "拓扑网络是啥？",
+        "concept",
+        "B-title I-title I-title I-title O O O"
     ],
     [
         "啥是拓扑网络?",
@@ -12378,6 +12338,11 @@
         "为何有拓扑网络?",
         "reason",
         "O O O B-title I-title I-title I-title O"
+    ],
+    [
+        "拓扑网络的情形是什么？",
+        "reason",
+        "B-title I-title I-title I-title O O O O O O O"
     ],
     [
         "有拓扑网络的理由是什么？",
@@ -12435,6 +12400,11 @@
         "O O O B-title I-title I-title I-title O"
     ],
     [
+        "矩阵运算是什么？",
+        "concept",
+        "B-title I-title I-title I-title O O O O"
+    ],
+    [
         "什么是矩阵运算?",
         "concept",
         "O O O B-title I-title I-title I-title O"
@@ -12448,6 +12418,11 @@
         "矩阵运算的含义是什么？",
         "concept",
         "B-title I-title I-title I-title O O O O O O O"
+    ],
+    [
+        "矩阵运算什么意思？",
+        "concept",
+        "B-title I-title I-title I-title O O O O O"
     ],
     [
         "怎么学矩阵运算?",
@@ -12480,11 +12455,6 @@
         "O O O O O B-title I-title I-title I-title O"
     ],
     [
-        "矩阵运算有什么用？",
-        "reason",
-        "B-title I-title I-title I-title O O O O O"
-    ],
-    [
         "矩阵运算什么用？",
         "reason",
         "B-title I-title I-title I-title O O O O"
@@ -12503,6 +12473,11 @@
         "为啥矩阵运算?",
         "reason",
         "O O B-title I-title I-title I-title O"
+    ],
+    [
+        "为啥有矩阵运算?",
+        "reason",
+        "O O O B-title I-title I-title I-title O"
     ],
     [
         "为何有矩阵运算?",
@@ -12550,9 +12525,9 @@
         "B-title I-title I-title I-title O O O O"
     ],
     [
-        "在语言下矩阵运算如何做？",
+        "怎么完成矩阵运算任务？",
         "codes",
-        "O O O O B-title I-title I-title I-title O O O O"
+        "O O O O B-title I-title I-title I-title O O O"
     ],
     [
         "做矩阵运算需要写什么？",
@@ -12610,9 +12585,9 @@
         "O O B-title I-title I-title I-title O"
     ],
     [
-        "线性规划是？",
-        "concept",
-        "B-title I-title I-title I-title O O"
+        "为什么引入线性规划?",
+        "reason",
+        "O O O O O B-title I-title I-title I-title O"
     ],
     [
         "线性规划有什么用？",
@@ -12685,9 +12660,14 @@
         "B-title I-title I-title I-title O O O"
     ],
     [
-        "线性规划如何做？",
+        "在语言下线性规划如何做？",
         "codes",
-        "B-title I-title I-title I-title O O O O"
+        "O O O O B-title I-title I-title I-title O O O O"
+    ],
+    [
+        "怎么完成线性规划任务？",
+        "codes",
+        "O O O O B-title I-title I-title I-title O O O"
     ],
     [
         "做线性规划需要写什么？",

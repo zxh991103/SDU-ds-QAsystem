@@ -139,6 +139,7 @@ def get_entity(text, tokens):
 
 def metric():
     print('----')
+    json.load("../_2_traindataProcess/")
     graph, sess = run_deploy(model_configss[0])
     res = parse(graph,sess,"什么是数据结构？")
 
