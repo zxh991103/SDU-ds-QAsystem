@@ -1,36 +1,33 @@
 {
-    "data": {
-        "train_data": "../../_2_traindataProcess/train_data.txt",
-        "dev_data": "../../_2_traindataProcess/dev_data.txt",
-        "tag_padding": "X",
-        "max_len": 15
+  "data": {
+    "train_data": "../../_2_traindataProcess/train_data.txt",
+    "dev_data": "../../_2_traindataProcess/dev_data.txt",
+    "tag_padding": "X",
+    "max_len": 15
+  },
+  "bert": {
+    "bert_config": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/albert_config.json",
+    "bert_checkpoint": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/model.ckpt-best",
+    "bert_vocab": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/vocab_chinese.txt",
+    "albert": "True"
+  },
+  "model": {
+    "lr": 1e-4,
+    "batch_size": 256,
+    "max_epochs": 50,
+    "early_stop_patience": 10,
+    "reduce_lr_patience": 3,
+    "reduce_lr_factor": 0.5,
+    "all_train_threshold": 0.99,
+    "clf_configs": {
+      "clf_type": "dense",
+      "dense_units": 128
     },
-    "bert": {
-        "bert_config": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/albert_config.json",
-        "bert_checkpoint": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/model.ckpt-best",
-        "bert_vocab": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/vocab_chinese.txt",
-        "albert": "True"
-    },
-    "model": {
-        "lr": 1e-4,
-        "batch_size": 256,
-        "max_epochs": 16,
-        "early_stop_patience": 10,
-        "reduce_lr_patience": 3,
-        "reduce_lr_factor": 0.5,
-        "all_train_threshold": 0.99,
-        "clf_configs": {
-            "clf_type": "textcnn",
-            "filters": 128,
-            "kernels": [2,3,4],
-            "dropout_rate": 0.1,
-            "dense_units": 128
-        },
-        "ner_configs": {
-            "ner_type": "idcnn",
-            "filters": 128,
-            "kernel_size": 3,
-            "blocks": 4
-        }
+    "ner_configs": {
+      "ner_type": "bilstm",
+      "num_hidden_layers": 3,
+      "units": 32,
+      "dropout_rate": 0.1
     }
+  }
 }

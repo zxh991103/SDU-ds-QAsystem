@@ -22,7 +22,7 @@
   },
   "ner_configs": {
     "ner_type": "bilstm",
-    "num_hidden_layers": [1,2,3],
+    "num_hidden_layers": 3,
     "units": 32,
     "dropout_rate": 0.1
   }

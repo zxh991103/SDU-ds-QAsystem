@@ -34,7 +34,7 @@ model_configsd = {}
 
 basepath = '/Users/admin/Desktop/qaresult/model/{}/model_configs.json'
 model_configss = [
-    "albert_base_/textcnn_idcnn"
+    "albert_base_/textcnn_bilstm"
 ]
 
 
