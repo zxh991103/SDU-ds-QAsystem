@@ -26,14 +26,15 @@ import codecs
 import pickle
 import numpy as np
 import tensorflow as tf
-
+import random
 from _3_train.keras_bert_kbqa.predict import predict
 from _3_train.keras_bert_kbqa.utils.tokenizer import Tokenizer
 
 model_configsd = {}
 
+basepath = '/Users/admin/Desktop/qaresult/model/{}/model_configs.json'
 model_configss = [
-    "/Users/admin/Desktop/qaresult/model/albert_base_/textcnn_idcnn/model_configs.json"
+    "albert_base_/textcnn_idcnn"
 ]
 
 
@@ -82,6 +83,8 @@ def parse(graph, sess, l1):
             ner_pred = [model_configsd["id_to_tag"][item] for item in np.argmax(ner_pred, axis=-1)[0]]
             ner_res = get_entity(text, ner_pred)
 
+
+
             if len(ner_res) == 0:
                 nres = ''
             else:
@@ -89,7 +92,7 @@ def parse(graph, sess, l1):
                     nres = ''
                 else:
                     nres = ner_res[0][1]
-            resner.append(nres)
+            resner.append(ner_pred)
             resclf.append(clf_res)
 
     return resclf,resner
@@ -133,6 +136,42 @@ def get_entity(text, tokens):
 
     return entities
 
+def accclf(l1,l2):
+    if len(l1) != len(l2):
+        print('do not match')
+        return
+    s = 0
+    for i in range(len(l1)):
+        if l1[i] == l2[i]:
+            s+=1
+    return s/len(l1)
+
+
+def checklist(l1,l2):
+    r = 0
+    len1 = min(len(l1),len(l2))
+    for i in range(len1):
+        if l1[i]!= l2[i]:
+            r += 1
+    return 1.0 - r/len(l1)
+
+def accner(l1,l2):
+    s=0
+    if len(l1) != len(l2):
+        print('do not match')
+        return
+    for i in range(len(l1)):
+        s += checklist(l1[i],l2[i])
+
+    return s/len(l1)
+
+def r12(l1):
+    r1 = random.randint(0,l1)
+    while 1:
+        r2 = random.randint(0,l1)
+        if r2 !=r1:
+            break
+    return min(r1,r2),max(r1,r2)
 
 def metric():
 
@@ -145,18 +184,41 @@ def metric():
     for i in data:
         n1.append(i[0])
         tclf.append(i[1])
-
-
-    print(len(n1))
-    graph, sess = run_deploy(model_configss[0])
-    resclf,resner = parse(graph, sess, n1)
-
-    return resclf,resner
-
-
+        tner.append(i[2].split(' '))
+        len1 = len(i[0])
+        rk1,rk2 = r12(len1)
+        n1.append(i[0][rk1:rk2])
+        tclf.append(i[1])
+        tner.append(i[2].split(' ')[rk1:rk2])
 
 
 
-r1 , r2 =metric()
+    res = {}
+    for i in model_configss:
+        graph, sess = run_deploy(basepath.format(i))
+        resclf,resner = parse(graph, sess, n1)
 
-print(len(r1),len(r2))
+
+        rc = accclf(resclf, tclf)
+        rn = accner(resner, tner)
+        print(rc)
+        print(rn)
+        res[i]={
+            'resclf':rc,
+            'resner':rn
+        }
+
+
+    return res
+
+
+
+
+
+
+print(metric())
+
+
+
+
+

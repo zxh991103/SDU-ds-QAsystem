@@ -1,0 +1,31 @@
+{
+  "clf_configs": {
+    "clf_type": "textcnn",
+    "filters": 128,
+    "kernels": [
+      2,
+      3,
+      4
+    ],
+    "dropout_rate": 0.1,
+    "dense_units": 128
+  },
+  "clf_configs": {
+    "clf_type": "dense",
+    "dense_units": 128
+  },
+  "ner_configs": {
+    "ner_type": "idcnn",
+    "filters": 128,
+    "kernel_size": 3,
+    "blocks": 4
+  },
+  "ner_configs": {
+    "ner_type": "bilstm",
+    "num_hidden_layers": [1,2,3],
+    "units": 32,
+    "dropout_rate": 0.1
+  }
+}
+
+
