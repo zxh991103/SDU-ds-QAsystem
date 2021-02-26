@@ -27,10 +27,8 @@ import pickle
 import numpy as np
 import tensorflow as tf
 
-
 from _3_train.keras_bert_kbqa.predict import predict
 from _3_train.keras_bert_kbqa.utils.tokenizer import Tokenizer
-
 
 model_configsd = {}
 
@@ -69,29 +67,32 @@ def run_deploy(model_configs):
     return graph, sess
 
 
-
-
-
-def parse(graph,sess,text):
+def parse(graph, sess, l1):
     # 编码
-    text = text[:model_configsd["max_len"]]
-    token, seg = model_configsd["tokenizer"].encode(text, first_length=model_configsd["max_len"])
+    resclf = []
+    resner= []
+    for text in l1:
+        text = text[:model_configsd["max_len"]]
+        token, seg = model_configsd["tokenizer"].encode(text, first_length=model_configsd["max_len"])
 
+        with graph.as_default():
+            keras.backend.set_session(sess)
+            clf_pred, ner_pred = model_configsd["model"].predict([[token], [seg]])
+            clf_res = model_configsd["id_to_label"][np.argmax(clf_pred)]
+            ner_pred = [model_configsd["id_to_tag"][item] for item in np.argmax(ner_pred, axis=-1)[0]]
+            ner_res = get_entity(text, ner_pred)
 
-    with graph.as_default():
-        keras.backend.set_session(sess)
-        clf_pred, ner_pred = model_configsd["model"].predict([[token], [seg]])
-        clf_res = model_configsd["id_to_label"][np.argmax(clf_pred)]
-        ner_pred = [model_configsd["id_to_tag"][item] for item in np.argmax(ner_pred, axis=-1)[0]]
-        ner_res = get_entity(text, ner_pred)
-        if len(ner_res)==0:
-            nres = ''
-        else:
-            if len(ner_res[0]) < 2:
+            if len(ner_res) == 0:
                 nres = ''
             else:
-                nres = ner_res[0][1]
-        return clf_res,nres
+                if len(ner_res[0]) < 2:
+                    nres = ''
+                else:
+                    nres = ner_res[0][1]
+            resner.append(nres)
+            resclf.append(clf_res)
+
+    return resclf,resner
 
 
 def get_entity(text, tokens):
@@ -133,18 +134,29 @@ def get_entity(text, tokens):
     return entities
 
 
-
-
-
-
 def metric():
-    print('----')
-    json.load("../_2_traindataProcess/")
+
+    with codecs.open("../_2_traindataProcess/test_data.txt", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    n1 = []
+    tclf = []
+    tner = []
+    for i in data:
+        n1.append(i[0])
+        tclf.append(i[1])
+
+
+    print(len(n1))
     graph, sess = run_deploy(model_configss[0])
-    res = parse(graph,sess,"什么是数据结构？")
+    resclf,resner = parse(graph, sess, n1)
 
-    return res
+    return resclf,resner
 
 
 
-print(metric())
+
+
+r1 , r2 =metric()
+
+print(len(r1),len(r2))
