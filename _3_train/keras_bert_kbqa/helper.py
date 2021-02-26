@@ -64,7 +64,7 @@ def run_args_parser():
     config_group.add_argument("-model_configs",
                              type=str,
                              required=True,
-                             help="(REQUIRED) train_config.json")
+                             help="(REQUIRED) model_config.json")
 
 
 
