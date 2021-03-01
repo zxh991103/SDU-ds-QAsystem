@@ -6,9 +6,9 @@
     "max_len": 15
   },
   "bert": {
-    "bert_config": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/albert_config.json",
-    "bert_checkpoint": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/model.ckpt-best",
-    "bert_vocab": "/Users/admin/Desktop/qaresult/checkpoints/albert_base/vocab_chinese.txt",
+    "bert_config": "/Users/admin/Desktop/qaresult/checkpoints/chinese_wwm_ext_L-12_H-768_A-12/bert_config.json",
+    "bert_checkpoint": "/Users/admin/Desktop/qaresult/checkpoints/chinese_wwm_ext_L-12_H-768_A-12/bert_model.ckpt",
+    "bert_vocab": "/Users/admin/Desktop/qaresult/checkpoints/chinese_wwm_ext_L-12_H-768_A-12/vocab.txt",
     "albert": "True"
   },
   "model": {
@@ -24,10 +24,10 @@
       "dense_units": 128
     },
     "ner_configs": {
-      "ner_type": "bilstm",
-      "num_hidden_layers": 3,
-      "units": 32,
-      "dropout_rate": 0.1
+      "ner_type": "idcnn",
+      "filters": 128,
+      "kernel_size": 3,
+      "blocks": 4
     }
   }
 }
