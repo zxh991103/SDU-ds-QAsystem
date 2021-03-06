@@ -21,7 +21,7 @@ def robotindex():
 @app.route("/ask/<question>")
 def talk(question=None):
 
-    from _5_predictapi.prefromgraph import answer
+    from _4_predict.prefromgraph import answer
 
     print(question)
     ans = answer(question)

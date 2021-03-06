@@ -1,4 +1,4 @@
-MODEL_DIR="../../_4_model/models"
+MODEL_DIR="/Users/admin/Desktop/qaresult/model/albert_base_/textcnn_idcnn"
 
 
 python run_deploy.py \
