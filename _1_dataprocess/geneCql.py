@@ -11,13 +11,13 @@ from data2dict import nodecode
 from data2dict import noderes
 
 nodedescp = nodedesc()
-
+print(nodedescp)
 nodecodes = nodecode()
 
 noderesn = noderes()
 
 nodes = nodelist()
-
+print(nodes)
 noderelation = nodedict()
 
 nodesid = nodeid()

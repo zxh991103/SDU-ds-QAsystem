@@ -1,14 +1,12 @@
-res = {'chinese_wwm_ext_L-12_H-768_A-12_/textcnn_idcnn': {'resclf': 0.8626760563380281, 'resner': 0.9844064386317919},
-       'chinese_wwm_ext_L-12_H-768_A-12_/dense_idcnn': {'resclf': 0.528169014084507, 'resner': 0.9759808853118729},
-       'chinese_wwm_ext_L-12_H-768_A-12_/textcnn_bilstm': {'resclf': 0.3855633802816901, 'resner': 0.8690895372233379},
-       'chinese_wwm_ext_L-12_H-768_A-12_/dense_bilstm': {'resclf': 0.8080985915492958, 'resner': 0.905558350100604},
-       'albert_base_/textcnn_idcnn': {'resclf': 0.8098591549295775, 'resner': 0.9823943661971845},
-       'albert_base_/dense_idcnn': {'resclf': 0.8380281690140845, 'resner': 0.9810110663983914},
-       'albert_base_/textcnn_bilstm': {'resclf': 0.8380281690140845, 'resner': 0.9742203219315906},
-       'albert_base_/dense_bilstm': {'resclf': 0.36795774647887325, 'resner': 0.8206740442655921},
-       'chinese_L-12_H-768_A-12_/textcnn_idcnn': {'resclf': 0.2992957746478873, 'resner': 0.7838279678068406},
-       'chinese_L-12_H-768_A-12_/dense_idcnn': {'resclf': 0.3415492957746479, 'resner': 0.7834507042253517},
-       'chinese_L-12_H-768_A-12_/textcnn_bilstm': {'resclf': 0.8503521126760564, 'resner': 0.9801307847082512},
-       'chinese_L-12_H-768_A-12_/dense_bilstm': {'resclf': 0.8327464788732394, 'resner': 0.9611418511066403}}
-
-
+res = {'chinese_wwm_ext_L-12_H-768_A-12_/textcnn_idcnn': {'resclf': 0.8767605633802817, 'resner': 0.9854124748490957},
+       'chinese_wwm_ext_L-12_H-768_A-12_/dense_idcnn': {'resclf': 0.5545774647887324, 'resner': 0.9769869215291763},
+       'chinese_wwm_ext_L-12_H-768_A-12_/textcnn_bilstm': {'resclf': 0.3855633802816901, 'resner': 0.8668259557344048},
+       'chinese_wwm_ext_L-12_H-768_A-12_/dense_bilstm': {'resclf': 0.8186619718309859, 'resner': 0.9043008048289736},
+       'albert_base_/textcnn_idcnn': {'resclf': 0.823943661971831, 'resner': 0.9849094567404438},
+       'albert_base_/dense_idcnn': {'resclf': 0.8274647887323944, 'resner': 0.9844064386317919},
+       'albert_base_/textcnn_bilstm': {'resclf': 0.8186619718309859, 'resner': 0.9791247484909468},
+       'albert_base_/dense_bilstm': {'resclf': 0.35563380281690143, 'resner': 0.8161468812877247},
+       'chinese_L-12_H-768_A-12_/textcnn_idcnn': {'resclf': 0.2992957746478873, 'resner': 0.7805583501006038},
+       'chinese_L-12_H-768_A-12_/dense_idcnn': {'resclf': 0.3415492957746479, 'resner': 0.7772887323943656},
+       'chinese_L-12_H-768_A-12_/textcnn_bilstm': {'resclf': 0.8609154929577465, 'resner': 0.9826458752515104},
+       'chinese_L-12_H-768_A-12_/dense_bilstm': {'resclf': 0.8345070422535211, 'resner': 0.9651659959758563}}

@@ -1,23 +1,53 @@
-2021-03-06 13:37:05.144 | DEBUG    | __main__:log_init:50 - logger initialized
-2021-03-06 13:43:12.711 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m二叉树？[0m
-2021-03-06 13:43:12.784 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
-    "text": "二叉树？",
-    "predicate": "codes",
+2021-04-14 16:53:35.072 | DEBUG    | __main__:log_init:50 - logger initialized
+2021-04-14 16:53:59.720 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m？？[0m
+2021-04-14 16:53:59.793 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "？？",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-04-14 16:54:02.332 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36maa[0m
+2021-04-14 16:54:02.400 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "aa",
+    "predicate": "concept",
     "subject": [
         [
             "title",
-            "二叉树"
+            "a"
         ]
     ]
 }[0m
-2021-03-06 13:44:00.925 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m栈？[0m
-2021-03-06 13:44:00.999 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
-    "text": "栈？",
+2021-04-14 16:54:06.098 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36mcscsc[0m
+2021-04-14 16:54:06.172 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "cscsc",
     "predicate": "codes",
+    "subject": []
+}[0m
+2021-04-14 16:54:09.705 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36mzhan[0m
+2021-04-14 16:54:09.775 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "zhan",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-04-14 16:54:15.427 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36mzhan[0m
+2021-04-14 16:54:15.502 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "zhan",
+    "predicate": "concept",
+    "subject": []
+}[0m
+2021-04-14 16:54:22.025 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m站[0m
+2021-04-14 16:54:22.097 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "站",
+    "predicate": "codes",
+    "subject": []
+}[0m
+2021-04-14 16:54:28.806 | INFO     | __main__:decode:171 - [31m[RECEIVE]: [0m[36m占是什么？[0m
+2021-04-14 16:54:28.883 | INFO     | __main__:decode:173 - [32m[SEND]: [0m[36m{
+    "text": "占是什么？",
+    "predicate": "concept",
     "subject": [
         [
             "title",
-            "栈"
+            "占"
         ]
     ]
 }[0m

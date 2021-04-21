@@ -18,12 +18,12 @@ import sys
 import argparse
 
 
-if os.name == "nt":
+if os.name == "zhaoxiaohui.1":
     bert_dir = ""
     root_dir = ""
 else:
-    bert_dir = "/home/liushaoweihua/pretrained_lm/bert_chinese/"
-    root_dir = "/home/projects/kbqa/tools/Keras-Bert-Kbqa/"
+    bert_dir = ""
+    root_dir = ""
 
 
 def train_args_parser():

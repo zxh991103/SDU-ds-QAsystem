@@ -1,10 +1,10 @@
 
 
-
+path = "http://121.5.144.6:2020/query"
 def pre(txt):
     import requests
     r = requests.post(
-        "http://127.0.0.1:2020/query",
+        path,
         json={
             "text": txt})
 
@@ -12,10 +12,9 @@ def pre(txt):
     import ast
 
     rdict = ast.literal_eval(r.text)
-    if len(rdict['subject'] ) == 0:
-        return "noa",rdict['predicate']
     cls = rdict['predicate']
-    res = rdict['subject'][0][1]
+    res = rdict['subject']
     return res,cls
+
 
 

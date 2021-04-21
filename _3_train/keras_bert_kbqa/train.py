@@ -42,6 +42,7 @@ def train(args):
     train_tokens, train_segs, train_labels, train_tags = processor.process(args.data_params.get("train_data"), args.data_params.get("max_len"))
 
 
+
     train_x = [np.array(train_tokens), np.array(train_segs), np.array(train_labels), np.array(train_tags)]
     train_y = None
     if args.data_params.get("dev_data") is not None:

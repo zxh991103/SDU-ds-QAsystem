@@ -43,7 +43,7 @@ def nodedesc():
     nodedescp={}
 
     for i in nodelist():
-        nodedescp[i]='desc'
+        nodedescp[i]='描述'
     return nodedescp
 
 
@@ -51,11 +51,11 @@ def nodecode():
     nodecodes = {}
 
     for i in nodelist():
-        nodecodes[i] = 'code'
+        nodecodes[i] = '代码'
     return nodecodes
 
 def noderes():
     noderesn={}
     for i in nodelist():
-        noderesn[i] = 'reson'
+        noderesn[i] = '引入原因'
     return noderesn

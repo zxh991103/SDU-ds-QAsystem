@@ -24,8 +24,16 @@ def createdict(l):
 from _1_dataprocess.data2dict import nodelist, nodeid
 
 import numpy as np
+import csv
+data = []
+with open('node_all.txt', 'r') as f:
+    reader = csv.reader(f)
 
-ns = nodelist()
+    for row in reader:
+        data.append(row[0].lower())
+ns = data
+
+# ns = nodelist()
 nid = nodeid()
 allchar = createdict(ns)
 
@@ -45,7 +53,7 @@ for i in range(len(allarray)):
 
 
 def makesenv(s):
-    n1 = np.zeros(163)
+    n1 = np.zeros(289)
     for i in s:
         if i in worddic:
             n1 += np.array(worddic[i])
@@ -68,12 +76,8 @@ def getpy(word):
     return s
 
 
-def answer(question):
-    from _1_dataprocess.data2dict import nodelist, nodeid
-
-    ns = nodelist()
-    nid = nodeid()
-
+def pretype(question):
+    r1 = 'concept'
     questionformat = [["是什么", "什么是", "概念？", "含义",
                        "什么意思", "怎么学", "如何学习", "是啥"
                           , "啥是"
@@ -87,12 +91,7 @@ def answer(question):
                           , "完成", "写", "如何写"
                        ]
                       ]
-
     questionlabel = ['concept', 'reason', 'codes']
-    k1 = ''
-
-    k2 = ''
-
     min2 = 9999
 
     for j in range(3):
@@ -101,69 +100,140 @@ def answer(question):
                 t = Levenshtein.distance(question, i)
                 if t < min2:
                     min2 = t
-                    k2 = questionlabel[j]
+                    r1 = questionlabel[j]
+
+    nres = 'notnn'
+    if min2 == 9999:
+        t1, t2 = pre(question)
+        r1 = t2
+
+        if len(t1) == 0:
+            nres = 'noa'
+        else:
+            nres = t1[0][1]
+        print("use nn for clf " + r1 + ' ' + str(t1))
+    else:
+        print("use regular for clf " + r1)
+
+    return r1 , nres
+
+
+def preentity(question,nner):
+    k1 = 'noa'
+
     min1 = 9999
 
     for i in ns:
+        if i == question:
+            return i
         if i in question:
             t = Levenshtein.distance(question, i)
+            print(question,i,t)
             if t < min1:
                 min1 = t
                 k1 = i
-
-    if min1 == 9999 or min2 == 9999:
-        print('use  nn')
-        res, clf = pre(question)
-        print('nn:{},{}'.format(res, clf))
-        if res == "noa":
-            return "no answer"
-
-        maxl = 0
-        k1 = res
-        v1 = makesenv(res)
-
-        if np.linalg.norm(v1) == 0:
-
-            vpy = getpy(res)
-            print('pinyin:{}'.format(vpy))
-            minl = 9999
-
-            for i in ns:
-                v2py = getpy(i)
-
-                t = Levenshtein.distance(vpy, v2py)
-                if t < minl:
-                    minl = t
-                    k1 = i
-
-
+                print(k1)
+    if min1 == 9999:
+        if nner == "notnn":
+            t1 , t2 = pre(question)
+            print("for ner first use nn! and nn preedict is "+ str(t1))
+            if len(t1) == 0:
+                nner = 'noa'
+            else:
+                nner = t1[0][1]
         else:
-            print('use word vector')
+            print("Already use nn! and nn predict is " + nner)
+        if nner == "noa":
+            return k1
+        else:
+            min2 = 9999
             for i in ns:
-                v2 = makesenv(i)
-                t = cosin(v1, v2)
-                if t > maxl:
-                    k1 = i
-                    maxl = t
-        res = k1
+                if i == nner:
+                    return i
+                if nner in i:
+                    t = Levenshtein.distance(question, i)
+                    print(nner, i, t)
+                    if t < min1:
+                        min2 = t
+                        k1 = i
+                        print(k1)
+            if min2 == 9999:
+                maxl = 0
+                k1 = nner
+                v1 = makesenv(nner)
+
+                if np.linalg.norm(v1) == 0:
+
+                    vpy = getpy(nner)
+                    minl = 9999
+
+                    for i in ns:
+                        v2py = getpy(i)
+                        t = Levenshtein.distance(vpy, v2py)
+                        if t < minl:
+                            minl = t
+                            k1 = i
+                    print("use nn + pinyin + edit for ner " + k1)
+                else:
+                    for i in ns:
+                        v2 = makesenv(i)
+                        t = cosin(v1, v2)
+                        if t > maxl:
+                            k1 = i
+                            maxl = t
+                    print("use nn + onehot vector for ner " + k1)
+            else:
+                print("use nn + regular for ner" + k1)
     else:
-        print('use regular')
-        res, clf = k1, k2
-        print('regular:{},{}'.format(res, clf))
+        print("use regualr for ner " + k1)
+    return k1
 
-    sqls = "MATCH (n) where n.id = {} return n.{}"
-    reid = nid[res]
 
-    qtype = {
-        'concept': 'desc',
-        'reason': 'importres',
-        'codes': 'code'
-    }
-    result = k1
-    gd = g.run(sqls.format(reid, qtype[clf])).data()
 
-    for i in gd[0]:
-        result = result + "</br>" + i + "</br>" + gd[0][i]
+def answer(question):
+    hello = ['你好！','hello!','hi!','早上好！','中午好！','晚上好！']
+    for i in hello:
+        if question.lower() in i or i in question.lower():
+            return i
+
+
+
+    question = question.lower()
+    print(question)
+    nid = nodeid()
+    print("----------calculate question type----------")
+    clf , nnres = pretype(question)
+    print("----------calculate question entity----------")
+    ner = preentity(question,nnres)
+    print("----------calculate END----------")
+
+    if ner == 'noa':
+        return "你说什么我听不懂呐！"+"</br>"+"请换个问法。"
+
+
+
+    if ner in nid:
+        sqls = "MATCH (n) where n.id = {} return n.{}"
+        reid = nid[ner]
+
+        qtype = {
+            'concept': 'desc',
+            'reason': 'importres',
+            'codes': 'code'
+        }
+
+        result = ner
+
+        gd = g.run(sqls.format(reid, qtype[clf])).data()
+
+        for i in gd[0]:
+            result = result + "</br>" + i + "</br>" + gd[0][i]
+    else:
+        result = ner + "</br>" + clf
     return result
+
+
+
+
 
 
