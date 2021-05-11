@@ -1,7 +1,7 @@
 from py2neo import Graph, Node, Relationship
 
 g = Graph(
-    host="121.5.144.6",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
+    host="139.224.63.113",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
     http_port=7474,  # neo4j 服务器监听的端口号
     user="neo4j",  # 数据库user name，如果没有更改过，应该是neo4j
     password="2021sdu")
@@ -225,13 +225,16 @@ def answer(question):
         result = ner
 
         gd = g.run(sqls.format(reid, qtype[clf])).data()
-
+        print('recall:------------')
+        print(gd)
+        print('recallend:------------')
         for i in gd[0]:
-            result = result + "</br>" + i + "</br>" + gd[0][i]
+            result =gd[0][i]
+
     else:
         result = ner + "</br>" + clf
+    print(result)
     return result
-
 
 
 

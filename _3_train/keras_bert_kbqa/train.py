@@ -103,6 +103,7 @@ def train(args):
             "reduce_lr_patience": args.model_params.get("reduce_lr_patience"),
             "reduce_lr_factor": args.model_params.get("reduce_lr_factor")}))
     # 保存信息
+
     with codecs.open(os.path.join(args.save_path, "label_to_id.pkl"), "wb") as f:
         pickle.dump(processor.label_to_id, f)
     with codecs.open(os.path.join(args.save_path, "id_to_label.pkl"), "wb") as f:

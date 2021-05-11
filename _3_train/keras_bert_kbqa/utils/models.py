@@ -96,7 +96,8 @@ class KbqaModel:
         """
         for layer in self.full_train_model.layers:
             layer.trainable = True        
-
+    def sy(self):
+        return self.pred_model.summary()
     def build(self):
         """Kbqa模型
         """

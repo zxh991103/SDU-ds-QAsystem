@@ -25,7 +25,10 @@ def talk(question=None):
 
     print(question)
     ans = answer(question)
+
+
     print(ans)
+
     return ans
 
 
