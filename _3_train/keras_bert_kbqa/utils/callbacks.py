@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: callbacks.py
-@Time: 2020/3/9 10:16 AM
-"""
+
 
 from __future__ import absolute_import
 from __future__ import division

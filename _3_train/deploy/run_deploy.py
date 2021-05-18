@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: run_deploy.py
-@Time: 2020/3/16 3:33 PM
-"""
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function

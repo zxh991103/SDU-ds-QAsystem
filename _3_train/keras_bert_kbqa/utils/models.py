@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: models1.py
-@Time: 2020/3/9 2:43 PM
-"""
+
 
 # Some codes come from <bert4keras>:
 #    Author: Jianlin Su

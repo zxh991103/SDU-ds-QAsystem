@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: predict.py
-@Time: 2020/3/16 3:39 PM
-"""
+
 
 from __future__ import absolute_import
 from __future__ import division

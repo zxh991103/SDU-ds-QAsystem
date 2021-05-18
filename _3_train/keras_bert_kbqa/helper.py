@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: help.py
-@Time: 2020/3/11 10:50 AM
-"""
 
 from __future__ import absolute_import
 from __future__ import division

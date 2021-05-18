@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: tokenizer.py
-@Time: 2020/3/3 10:37 AM
-"""
+
 
 # Codes come from <bert4keras>:
 #    Author: Jianlin Su

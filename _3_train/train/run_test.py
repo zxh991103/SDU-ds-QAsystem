@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Shaoweihua.Liu
-@Contact: liushaoweihua@126.com
-@Site: github.com/liushaoweihua
-@File: models1.py
-@Time: 2020/3/13 03:58 PM
-"""
+
 import os
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
